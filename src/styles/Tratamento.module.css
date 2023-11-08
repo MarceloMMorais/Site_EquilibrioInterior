@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Inclusive+Sans");
+@import url("https://fonts.googleapis.com/css?family=Martian+Mono");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(70%);
+}
+
+.titleTreatments {
+  margin-top: 1em;
+  text-align: center;
+  font-family: "Inclusive Sans";
+  color: #038d6c;
+  font-weight: bold;
+}
+
+.containerTreatments,
+.containerImgTextTreatmentsRight,
+.containerImgTextTreatmentsLeft {
+  margin: 2em 0;
+}
+
+.containerTreatments {
+  width: 100%;
+}
+
+.containerImgTextTreatmentsRight,
+.containerImgTextTreatmentsLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.imgTreatmentsRight {
+  animation: slideInRight;
+}
+
+.imgTreatmentsLeft {
+  animation: slideInLeft;
+}
+
+.imgTreatmentsRight,
+.imgTreatmentsLeft {
+  width: 23vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.containerImgTextTreatmentsRight .containerTextTreatments {
+  order: 1;
+}
+
+.containerTextTreatments h3 {
+  text-align: center;
+  text-decoration: underline;
+  color: #038d6c;
+  font-family: "Inclusive Sans";
+}
+
+.containerTextTreatments p {
+  text-align: justify;
+  margin: 1em 1.5em;
+}
+
+.containerPrice,
+.containerPriceLoose {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80vw;
+  margin-top: -1em;
+  justify-content: center;
+}
+
+.textPrice {
+  padding: 1em;
+  background-color: #038d6c;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 25vw;
+  margin: 1em;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(3, 141, 108, 0.7);
+}
+
+.lineTreatments {
+  background-color: #038d6c;
+  border-radius: 20px;
+  height: 1px;
+  width: 80vw;
+}
+
+.containerButtons {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 13;
+  height: fit-content;
+}
+
+.containerScroll {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1em;
+}
+
+.containerScroll span{
+  display: flex;
+}
+
+.btnScroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #038d6c;
+  text-decoration: none;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 11;
+  transition: all 1s;
+}
+
+.btnScroll:hover {
+  transform: scale(1.1, 1.1);
+  content: "↑";
+  opacity: 0.8;
+}
+
+.btnScroll::after {
+  content: "↑";
+  font-size: 32px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.containerWhats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.paragraphWhats{
+  color: #16352f ;
+  background-color: #adc8b7 ;
+  padding: 0.5em 1.5em;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid #038d6c;
+  margin-right: -1em;
+  display: flex;
+  font-weight: bold;
+}
+
+.iconWhats{
+  background-color: #038d6c;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  flex-direction: row;
+  display: flex;
+  cursor: pointer;
+  border-radius: 100%;
+}

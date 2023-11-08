@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Inclusive+Sans");
+@import url("https://fonts.googleapis.com/css?family=Martian+Mono");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(70%);
+}
+
+.containerImgTitle {
+  display: flex;
+}
+
+.containerTitles {
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 2em;
+  z-index: 1;
+}
+
+.title1,
+.title2 {
+  margin: 0;
+  padding: 0;
+}
+
+.title1 {
+  font-size: 3.5em;
+  color: #038d6c;
+  font-family: "Martian Mono";
+  word-spacing: -15px;
+}
+
+.title2 {
+  font-size: 3em;
+  text-align: end;
+  color: #adc8b7;
+  font-family: "Inclusive Sans";
+}
+
+/* Um pouco sobre nós e tratamentos */
+
+.containerResume {
+  width: 60vw;
+  align-self: center;
+  margin: 2em 0;
+}
+
+.titleResume {
+  text-align: center;
+  color: #038d6c;
+  font-family: "Inclusive Sans";
+}
+
+.containerButton {
+  justify-content: center;
+  display: flex;
+  margin: 1em 0;
+}
+
+.button {
+  padding: 1em;
+  border: 2px solid #038d6c;
+  color: #038d6c;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  width: 10vw;
+  margin: 1em 0;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #038d6c;
+  color: #fff;
+}
+
+.containerSentence {
+  background-color: #038d6c;
+  padding: 3em 2em;
+  text-align: center;
+  color: #fff;
+}
+
+.line {
+  width: 40vw;
+  color: #fff;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.paragraphResume {
+  margin-top: 2em;
+  text-align: justify;
+  font-family: "Inclusive Sans";
+}
+
+.containerTreatments {
+  margin: 2em 0;
+}
+
+.titleTreatments {
+  margin-top: 1em;
+  text-align: center;
+  font-family: "Inclusive Sans";
+  color: #038d6c;
+}
+
+.containerImgTextTreatmentsRight,
+.containerImgTextTreatmentsLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2em 0;
+  width: 60vw;
+}
+
+.containerTextTreatmentsLeft,
+.containerTextTreatmentsRight {
+  margin: 0 1em;
+  width: 70%;
+  font-family: "Inclusive Sans";
+}
+
+.containerTextTreatments h3,
+.containerTextTreatmentsRight h3 {
+  text-align: center;
+  text-decoration: underline;
+  color: #038d6c;
+  font-family: "Inclusive Sans";
+}
+
+.containerTextTreatmentsRight {
+  text-align: end;
+}
+
+.containerTextTreatmentsRight p {
+  text-align: justify;
+}
+
+.imgTreatments {
+  width: 23vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.lineTreatments {
+  background-color: #038d6c;
+  border-radius: 20px;
+  height: 1px;
+  width: 60vw;
+}
