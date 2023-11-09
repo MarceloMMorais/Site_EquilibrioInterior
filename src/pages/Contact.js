@@ -2,24 +2,15 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa6";
 import { SocialIcon } from "react-social-icons";
-import GoogleMapReact from "google-map-react";
+import Maps from '../images/PhotoMaps.png'
 
 import Header from "../components/Header";
 import styles from "../styles/Contact.module.css";
 
 function Contact() {
-  const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
-  const coordinates = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
-    },
-    zoom: 11,
-  };
   return (
     <div className={styles.container}>
-      <Header />
+      <Header shouldApplyBackground={true} />
       <h1 className={styles.title}>Fale Conosco</h1>
       <div className={styles.containerInfoForm}>
         <div className={styles.text}>
@@ -63,6 +54,15 @@ function Contact() {
                 url="https://www.whatsapp.com/"
               />
             </div>
+          </div>
+          <div>
+            <a target="_blank" href="https://www.google.com.br/maps/place/Equil%C3%ADbrio+Interior+Terapias+Naturais/@-23.8001732,-45.4019522,17z/data=!3m1!4b1!4m6!3m5!1s0x94d29bf0f2580595:0xc2eb8092d00b565a!8m2!3d-23.8001732!4d-45.4019522!16s%2Fg%2F11h2hhn22n?entry=ttu">
+              <img
+                src={Maps}
+                alt="Localização"
+                className={styles.imgMaps}
+              />
+            </a>
           </div>
         </div>
         <div className={styles.containerForm}>
@@ -110,15 +110,6 @@ function Contact() {
             <input type="hidden" name="redirectTo" value="http://localhost:3000/Fale-Conosco"></input>
           </form>
         </div>
-      </div>
-      <div>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: "https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" }}
-          defaultCenter={coordinates.center}
-          defaultZoom={coordinates.zoom}
-        >
-          <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
-        </GoogleMapReact>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@
   text-align: center;
   font-family: "Inclusive Sans";
   color: #038d6c;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .containerInfoForm {
@@ -92,4 +92,14 @@
 .buttonSubmit:hover{
   background-color: #038d6c;
   color: #FFF;
+}
+
+.imgMaps{
+  width: 40vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 1vh;
+  cursor: pointer;
 }
