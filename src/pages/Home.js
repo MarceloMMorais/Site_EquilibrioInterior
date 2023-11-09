@@ -143,7 +143,7 @@ function Home() {
           </div>
         </div>
         <div className={styles.containerButton}>
-          <Link reloadDocument className={styles.button} to="/Tratamentos">
+          <Link preventScrollReset={false} className={styles.button} to="/Tratamentos">
             Veja Mais
           </Link>
         </div>

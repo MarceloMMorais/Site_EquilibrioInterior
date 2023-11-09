@@ -6,6 +6,7 @@ import Maps from '../images/PhotoMaps.png'
 
 import Header from "../components/Header";
 import styles from "../styles/Contact.module.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -107,11 +108,11 @@ function Contact() {
               name="accessKey"
               value="d1f90f58-5fee-4da2-bf45-5e359b291014"
             />
-            <input type="hidden" name="redirectTo" value="http://localhost:3000/Fale-Conosco"></input>
+            <input type="hidden" name="redirectTo" value="https://equilibriointerior.netlify.app/Fale-Conosco"></input>
           </form>
         </div>
       </div>
-    </div>
+    </div>  
   );
 }
 
