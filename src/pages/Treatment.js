@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ImWhatsapp } from "react-icons/im";
+import { IoMdArrowDropright } from "react-icons/io";
 
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
@@ -25,7 +26,7 @@ import image17 from "../images/fibrimialgia_tratamento.jpeg"; //Tratamento para 
 import image18 from "../images/ventosa_tratamento.jpg"; //Ventosaterapia
 import image19 from "../images/quiro.jpg"; //Yogaterapia
 
-import background from "../images/Banner_Tratamentos.png";
+import background from "../images/Banner_Tratamentos2.png";
 
 function Treatment() {
   const dados = [
@@ -35,10 +36,7 @@ function Treatment() {
       paragraph1:
         "A acupuntura é uma técnica terapêutica milenar que tem como base a crença de que o corpo humano possui canais de energia, chamados de meridianos, que estão interconectados e influenciam a saúde e o bem-estar. Quando esse fluxo de energia é perturbado, podem surgir desequilíbrios e doenças. Através da estimulação dos pontos de acupuntura, a energia é restaurada e o corpo é incentivado a se curar de forma natural.",
       paragraph2:
-        "Na Clínica Equilíbrio Interior, acreditamos na abordagem holística da acupuntura, que trata o corpo, a mente e o espírito como um todo interconectado.",
-      priceLoose: "170,00",
-      pricePack5: "850,00",
-      pricePack10: "1.700,00",
+        "Na Clínica Equilíbrio Interior, acreditamos na abordagem holística da acupuntura, que trata o corpo, a mente e o espírito como um todo interconectado."
     },
     {
       title: "Aromaterapia",
@@ -46,10 +44,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "00,00",
-      pricePack5: "00,00",
-      pricePack10: "00,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Auriculoterapia",
@@ -57,10 +52,7 @@ function Treatment() {
       paragraph1:
         "A Acupuntura Auricular é conhecida por sua eficácia no tratamento de uma variedade de condições, incluindo dores crônicas, distúrbios do sono, ansiedade, estresse, vícios, problemas de digestão, entre outros. É uma abordagem terapêutica holística que visa tratar não apenas os sintomas, mas também as causas subjacentes dos desequilíbrios no corpo.",
       paragraph2:
-        "Durante a sessão, pequenas agulhas ou outros estímulos serão aplicados nos pontos auriculares relevantes, proporcionando um efeito terapêutico específico para o seu caso.",
-      priceLoose: "100,00",
-      pricePack5: "500,00",
-      pricePack10: "1000,00",
+        "Durante a sessão, pequenas agulhas ou outros estímulos serão aplicados nos pontos auriculares relevantes, proporcionando um efeito terapêutico específico para o seu caso."
     },
     {
       title: "Cama de Cristal/Cromoterapia",
@@ -68,10 +60,7 @@ function Treatment() {
       paragraph1:
         "A Cromoacupuntura pode ser utilizada para tratar uma variedade de condições, como dores crônicas, distúrbios do sono, ansiedade, estresse, problemas digestivos, entre outros. Cada cor possui propriedades terapêuticas específicas, e a seleção cuidadosa das cores utilizadas durante o tratamento é essencial para obter os melhores resultados.",
       paragraph2:
-        "É importante ressaltar que a cromoacupuntura deve ser realizada por terapeutas qualificados e experientes, que possuem conhecimento tanto em acupuntura quanto em cromoterapia.",
-      priceLoose: "00,00",
-      pricePack5: "00,00",
-      pricePack10: "00,00",
+        "É importante ressaltar que a cromoacupuntura deve ser realizada por terapeutas qualificados e experientes, que possuem conhecimento tanto em acupuntura quanto em cromoterapia."
     },
     {
       title: "Drenagem Linfática",
@@ -79,10 +68,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "170,00",
-      pricePack5: "850,00",
-      pricePack10: "1700,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Liberação Miofascial",
@@ -90,10 +76,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "170,00",
-      pricePack5: "850,00",
-      pricePack10: "1700,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Massagem Relaxante",
@@ -101,10 +84,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "170,00",
-      pricePack5: "850,00",
-      pricePack10: "1700,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Massagem Terapêutica",
@@ -112,10 +92,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "200,00",
-      pricePack5: "1000,00",
-      pricePack10: "2000,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Microfisioterapia",
@@ -123,10 +100,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "00,00",
-      pricePack5: "00,00",
-      pricePack10: "00,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Moxaterapia",
@@ -134,10 +108,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "100,00",
-      pricePack5: "500,00",
-      pricePack10: "1000,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "New Seitai",
@@ -145,10 +116,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "220,00",
-      pricePack5: "1100,00",
-      pricePack10: "2200,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Quick",
@@ -156,10 +124,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "00,00",
-      pricePack5: "00,00",
-      pricePack10: "00,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Quiropraxia",
@@ -167,10 +132,7 @@ function Treatment() {
       paragraph1:
         "A quiropraxia é uma abordagem holística que reconhece a interconexão entre a coluna vertebral, o sistema nervoso e a saúde geral. Nosso quiropraxista utiliza ajustes manuais suaves e precisos para realinhar a coluna e liberar tensões e restrições nas articulações, permitindo que o corpo se cure naturalmente.",
       paragraph2:
-        "Ao longo desses 20 anos, ajudamos inúmeros clientes a superar uma variedade de condições, como dores nas costas, dores de cabeça, tensão muscular, lesões esportivas e muito mais.",
-      priceLoose: "220,00",
-      pricePack5: "1100,00",
-      pricePack10: "2200,00",
+        "Ao longo desses 20 anos, ajudamos inúmeros clientes a superar uma variedade de condições, como dores nas costas, dores de cabeça, tensão muscular, lesões esportivas e muito mais."
     },
     {
       title: "Terapia com Florais",
@@ -178,10 +140,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "00,00",
-      pricePack5: "00,00",
-      pricePack10: "00,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Terapias Combinadas",
@@ -189,10 +148,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "220,00",
-      pricePack5: "1100,00",
-      pricePack10: "2200,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Tratamento da Dor",
@@ -200,10 +156,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "220,00",
-      pricePack5: "1100,00",
-      pricePack10: "2200,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Tratamento para Fibromialgia",
@@ -211,10 +164,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "00,00",
-      pricePack5: "00,00",
-      pricePack10: "00,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Ventosaterapia",
@@ -222,10 +172,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "100,00",
-      pricePack5: "500,00",
-      pricePack10: "1000,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       title: "Yogaterapia",
@@ -233,10 +180,7 @@ function Treatment() {
       paragraph1:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      priceLoose: "00,00",
-      pricePack5: "00,00",
-      pricePack10: "00,00",
+        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
   ];
 
@@ -305,6 +249,25 @@ function Treatment() {
   render();
   window.addEventListener("scroll", render);
 
+  function handleScrollTo(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
+  function handleScrollTo(id) {
+    const element = document.getElementById(id);
+    if (element) {
+      const offset = 100; // Ajuste conforme necessário
+      const offsetPosition = element.offsetTop - offset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  }
+
   return (
     <div className={styles.container}>
       <Header shouldApplyBackground={shouldApplyBackground} />
@@ -318,9 +281,26 @@ function Treatment() {
         <h1 className={styles.titleTreatments}>
           Principais serviços que oferecemos aqui na Equilíbrio:
         </h1>
-
+        <div className={styles.columnsContainer}>
+          {[...Array(4)].map((_, colIndex) => (
+            <ul key={colIndex} className={styles.column}>
+              {dados.slice(colIndex * 5, (colIndex + 1) * 5).map((data, index) => (
+                <li key={index}>
+                  <a
+                    onClick={() => handleScrollTo(`tratamento-${colIndex * 5 + index}`)}
+                    className="scroll-highlight"
+                  >
+                    <IoMdArrowDropright />
+                    {data.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ))}
+        </div>
+        <hr className={styles.lineTreatments} />
         {dados.map((data, index) => (
-          <div className={styles.containerTreatments} key={index}>
+          <div id={`tratamento-${index}`} className={styles.containerTreatments} key={index}>
             <div
               className={
                 index % 2 === 0
@@ -345,19 +325,6 @@ function Treatment() {
                 />
               </div>
             </div>
-            <div>
-              <div className={styles.containerPriceLoose}>
-                <p className={styles.textPrice}>Avulso: R$ {data.priceLoose}</p>
-              </div>
-              <div className={styles.containerPrice}>
-                <p className={styles.textPrice}>
-                  Pacote com 5 sessões: R$ {data.pricePack5}
-                </p>
-                <p className={styles.textPrice}>
-                  Pacote com 10 sessões: R$ {data.pricePack10}
-                </p>
-              </div>
-            </div>
             <hr className={styles.lineTreatments} />
           </div>
         ))}
@@ -372,7 +339,7 @@ function Treatment() {
           </div>
         )}
         <div className={styles.containerWhats}>
-          <p style={containerDoubts ? {visibility: "visible"} : {visibility: "hidden"}} className={styles.paragraphWhats}>Tire suas dúvidas!</p>
+          <p style={containerDoubts ? { visibility: "visible" } : { visibility: "hidden" }} className={styles.paragraphWhats}>Tire suas dúvidas!</p>
           <div
             className={styles.iconWhats}
             onMouseEnter={() => setContainerDoubts(true)}

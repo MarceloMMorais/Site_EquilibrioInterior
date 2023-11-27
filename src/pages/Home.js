@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
-import background from "../images/bg_home.jpg";
+import background from "../images/Banner_home.jpg";
 import styles from "../styles/Home.module.css";
 
 import image1 from "../images/acupuntura.jpg";

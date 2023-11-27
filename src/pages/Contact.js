@@ -108,7 +108,7 @@ function Contact() {
               name="accessKey"
               value="d1f90f58-5fee-4da2-bf45-5e359b291014"
             />
-            <input type="hidden" name="redirectTo" value="https://equilibriointerior.netlify.app/Fale-Conosco"></input>
+            <input type="hidden" name="redirectTo" value="https://localhost/Fale-Conosco"></input>
           </form>
         </div>
       </div>
