@@ -6,7 +6,6 @@ import Maps from '../images/PhotoMaps.png'
 
 import Header from "../components/Header";
 import styles from "../styles/Contact.module.css";
-import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -56,7 +55,7 @@ function Contact() {
               />
             </div>
           </div>
-          <div>
+          <div className={styles.containerImgMaps}>
             <a target="_blank" href="https://www.google.com.br/maps/place/Equil%C3%ADbrio+Interior+Terapias+Naturais/@-23.8001732,-45.4019522,17z/data=!3m1!4b1!4m6!3m5!1s0x94d29bf0f2580595:0xc2eb8092d00b565a!8m2!3d-23.8001732!4d-45.4019522!16s%2Fg%2F11h2hhn22n?entry=ttu">
               <img
                 src={Maps}
@@ -65,6 +64,7 @@ function Contact() {
               />
             </a>
           </div>
+          <hr className={styles.lineContact}/>
         </div>
         <div className={styles.containerForm}>
           <form

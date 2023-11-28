@@ -1,36 +1,28 @@
-.container{
+.container {
     background-color: #adc8b7;
     width: 100%;
     height: 25%;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 2vw 4vw;
+    box-sizing: border-box;
 }
 
-.containerInformation{
+.containerInformation {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.text{
-    margin-left: 3vw;
-}
-
-.SocialIcons{
+.SocialIcons {
     background-color: #FFF;
-    border-radius: 5px;
-    width: 2.5vw !important;
-    height: 2.5vw !important;
+    border-radius: 10px;
+    width: 50px !important;
+    height: 50px !important;
     margin: 0 0.3vw;
-}   
-
-.img {
-    width: 20vw;
-    height: 10vh;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .containerInfo {
@@ -47,18 +39,15 @@
     justify-content: center;
 }
 
-.containerInfo p{
+.containerInfo p {
     margin-left: 10px;
     font-size: 0.9rem;
 }
 
-.redes {
-    margin-left: 47vw;
-}
-
-.redes p{
+.redes p {
     font-weight: bold;
     color: #038d6c;
+    white-space: nowrap;
 }
 
 .cnpj {
@@ -66,8 +55,80 @@
     font-weight: bold;
 }
 
-.copyright{
+.copyright {
     font-size: 0.9em;
     color: #038d6c;
     font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .container {
+        height: 25%;
+        padding: 2vw 4vw;
+    }
+
+    .containerInformation {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SocialIcons {
+        margin: 0 0.5vw;
+    }
+
+    .containerIcons {
+        justify-content: space-between;
+    }
+
+    .copyright {
+        padding-top: .5em;
+    }
+
+    .text {
+        display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+    }
+
+    .lineFooter {
+        background-color: #038d6c;
+        border-radius: 20px;
+        height: 1px;
+        width: 80vw;
+        margin-top: 2vw;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        height: 25%;
+        padding: 2vw 4vw;
+    }
+
+    .containerInformation {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SocialIcons {
+        margin: 0 0.5vw;
+    }
+
+    .containerIcons {
+        justify-content: space-between;
+    }
+
+    .copyright {
+        padding-top: 1em;
+    }
+
+    .lineFooter {
+        background-color: #038d6c;
+        border-radius: 20px;
+        height: 1px;
+        width: 60vw;
+        margin-top: 3vw;
+    }
 }

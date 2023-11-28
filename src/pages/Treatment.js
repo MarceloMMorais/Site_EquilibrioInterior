@@ -313,7 +313,7 @@ function Treatment() {
                 <p>{data.paragraph1}</p>
                 <p>{data.paragraph2}</p>
               </div>
-              <div>
+              <div className={styles.containerImgTreatments}>
                 <img
                   className={
                     index % 2 === 0

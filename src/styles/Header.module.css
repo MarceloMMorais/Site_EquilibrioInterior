@@ -1,29 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
 .container {
   display: flex;
-  justify-content: end;
-  padding: 0.5em;
+  justify-content: space-between;
+  padding: 1em;
   align-items: center;
-  align-content: center;
   position: fixed;
   width: 100%;
   z-index: 9;
-  padding: 1em;
+  box-sizing: border-box;
 }
 
 .background {
-  background-color: #038d6c; /* Cor de fundo azul */
-  z-index: 10;
-  transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+  background-color: #038d6c;
+  transition: background-color 0.3s ease;
   opacity: 0.95;
 }
 
 .containerMenu {
-  align-self: center;
-  margin-right: 1em;
+  display: flex;
+  align-items: center;
 }
 
-.links{
+/* Botão de menu */
+.menuButton {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menuLinks {
+  display: flex;
+  align-items: center;
+}
+
+.links {
   margin: 0 1em;
   font-size: 18px;
   font-family: Josefin Sans;
@@ -51,8 +62,40 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-.links:hover:before {
+.links:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+/* Exibe o menu em telas menores */
+@media (max-width: 768px) {
+  .links {
+    padding: 1em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #FFF;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menuButton {
+    display: block;
+  }
+
+  .menuLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #038d6c;
+    width: 100%;
+    height:fit-content;
+    z-index: 10;
+  }
+
+  .showMenu.menuLinks {
+    display: flex; /* Alterado para flex em vez de block */
+  }
 }

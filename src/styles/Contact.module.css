@@ -6,6 +6,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .title {
@@ -67,15 +68,15 @@
 
 .input {
   margin: 1em 0;
-  outline: none;  
+  outline: none;
   padding: .5em;
   border-radius: 5px;
-  border: 1px solid #038d6c ;
+  border: 1px solid #038d6c;
   resize: vertical;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.buttonSubmit{
+.buttonSubmit {
   padding: 0.6em;
   border: 2px solid #038d6c;
   color: #038d6c;
@@ -89,12 +90,12 @@
   text-decoration: none;
 }
 
-.buttonSubmit:hover{
+.buttonSubmit:hover {
   background-color: #038d6c;
   color: #FFF;
 }
 
-.imgMaps{
+.imgMaps {
   width: 40vw;
   height: 20vw;
   object-fit: cover;
@@ -102,4 +103,57 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-top: 1vh;
   cursor: pointer;
+}
+
+.lineContact {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .title {
+    margin-top: 10vh;
+  }
+
+  .containerInfoForm {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .containerIcons {
+    justify-content: center;
+  }
+
+  .redes p {
+    text-align: center;
+  }
+
+  .containerForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    width: 80vw;
+  }
+
+  .containerImgMaps {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgMaps {
+    width: 80vw;
+    height: 50vw;
+    margin: 2vh 0;
+  }
+
+  .lineContact {
+    background-color: #038d6c;
+    border-radius: 20px;
+    height: 1px;
+    width: 80vw;
+    margin: 1vh auto;
+    display: flex;
+  }
 }

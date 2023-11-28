@@ -11,6 +11,7 @@ import photoOwner from '../images/Henrique_Coelho.jpg'
 function About() {
     const containerNumbersRef = useRef(null);
     const [isInViewport, setIsInViewport] = useState(false);
+    const [isActive, setIsActive] = useState(false);
 
     useEffect(() => {
         const options = {
@@ -46,7 +47,7 @@ function About() {
             <Header shouldApplyBackground={true} />
             <h1 className={styles.title}>Quem Somos</h1>
             <div className={styles.containerInfoOwner}>
-                <div>
+                <div className={styles.containerImageOwner}>
                     <img
                         className={styles.imageOwner}
                         src={photoOwner}
@@ -103,33 +104,42 @@ function About() {
                 <h2>Os números não mentem:</h2>
                 <div className={styles.containerHorizontalNumbers}>
                     <div>
-                        <h2>
+                        <span>
                             {isInViewport ? (
-                                <AnimatedValue initialValue={0} toValue={30000} duration={3000} />
-                            ) : (
-                                0
-                            )}
-                        </h2>
+                                <AnimatedValue initialValue={0} toValue={30000} duration={3000} isActive={isActive} setIsActive={setIsActive} />
+                                ) : isActive ? (
+                                    30000
+                                ) : (
+                                    0
+                                )
+                                }
+                        </span>
                         <p>Clientes Satisfeitos</p>
                     </div>
                     <div>
-                        <h2>
+                        <span>
                             {isInViewport ? (
-                                <AnimatedValue initialValue={0} toValue={20} duration={3000} />
-                            ) : (
-                                0
-                            )}
-                        </h2>
+                                <AnimatedValue initialValue={0} toValue={20} duration={3000} isActive={isActive} setIsActive={setIsActive} />
+                                ) : isActive ? (
+                                    20
+                                ) : (
+                                    0
+                                )
+                                }
+                        </span>
                         <p>Anos de Experiência</p>
                     </div>
                     <div>
-                        <h2>
+                        <span>
                             {isInViewport ? (
-                                <AnimatedValue initialValue={0} toValue={175056} duration={3000} />
+                                <AnimatedValue initialValue={0} toValue={175056} duration={3000} isActive={isActive} setIsActive={setIsActive} />
+                            ) : isActive ? (
+                                175056
                             ) : (
                                 0
-                            )}
-                        </h2>
+                            )
+                            }
+                        </span>
                         <p>Horas Trabalhadas</p>
                     </div>
                 </div>

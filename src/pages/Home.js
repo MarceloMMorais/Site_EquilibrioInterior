@@ -97,7 +97,7 @@ function Home() {
                 envolve a aplicação de agulhas em pontos específicos do corpo.
               </p>
             </div>
-            <div>
+            <div className={styles.containerImgTreatments}>
               <img
                 className={styles.imgTreatments}
                 src={image1}
@@ -107,7 +107,7 @@ function Home() {
           </div>
           <hr className={styles.lineTreatments} />
           <div className={styles.containerImgTextTreatmentsLeft}>
-            <div>
+            <div className={styles.containerImgTreatments}>
               <img
                 className={styles.imgTreatments}
                 src={image2}
@@ -133,7 +133,7 @@ function Home() {
                 muscular, alívio de tensões e melhorar a circulação sanguínea.
               </p>
             </div>
-            <div>
+            <div className={styles.containerImgTreatments}>
               <img
                 className={styles.imgTreatments}
                 src={image3}
@@ -148,7 +148,7 @@ function Home() {
           </Link>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

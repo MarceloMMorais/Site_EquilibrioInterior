@@ -199,6 +199,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .columnsContainer ul {
@@ -214,6 +215,111 @@ html {
   text-decoration: underline;
 }
 
-.column li{
+.column li {
   margin-top: 10px;
+}
+
+/* ------------------- Formatação para Dispositivos Movéis -------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .background {
+    height: 80vh;
+  }
+
+  .containerTreatments {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .containerImgTextTreatmentsRight,
+  .containerImgTextTreatmentsLeft {
+    width: 80vw;
+    align-items: center;
+  }
+
+  .columnsContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .column{
+    width: 40%;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .background {
+    height: 40vh;
+  }
+  
+  .titleTreatments {
+    font-size: 0.8em;
+  }
+  
+  .containerTreatments {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .containerImgTextTreatmentsRight,
+  .containerImgTextTreatmentsLeft {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 90vw;
+  }
+  
+  .imgTreatmentsRight,
+  .imgTreatmentsLeft {
+    width: 80vw;
+    height: 50vw;
+    object-fit: cover;
+  }
+
+  .containerImgTreatments{
+    display: flex;
+    justify-content: center;
+    order: 2;
+  }
+  
+  .containerImgTextTreatmentsRight .containerTextTreatments {
+    order: 1;
+  }
+  
+  .containerTextTreatments p {
+    text-align: justify;
+    margin: 1em 1.5em;
+  }
+  
+  .lineTreatments {
+    background-color: #038d6c;
+    border-radius: 20px;
+    height: 1px;
+    width: 80vw;
+  }
+  
+  .columnsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .column{
+    width: 100%;
+    padding: 0;
+  }
+  
+  .column li {
+    margin-top: 10px;
+    white-space: nowrap;
+    font-size: 0.9em;
+    width: 10vw;
+  }
 }
