@@ -13,7 +13,7 @@ function Footer() {
         <div className={styles.text}>
           <div className={styles.containerInfo}>
             <p className={styles.cnpj}>
-              Equilíbrio Interior | CNPJ: XX.XXX.XXX/XXXX-XX
+              Equilíbrio Interior | CNPJ: 29.535.125/0001-35
             </p>
           </div>
           <div className={styles.containerInfo}>

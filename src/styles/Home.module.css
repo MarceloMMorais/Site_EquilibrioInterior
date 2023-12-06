@@ -6,7 +6,6 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  box-sizing: border-box;
 }
 
 .background {
@@ -77,7 +76,7 @@
   font-size: 1em;
   font-weight: bold;
   cursor: pointer;
-  width: 15vw;
+  width: 10vw;
   margin: 1em 0;
   text-align: center;
   border-radius: 5px;
@@ -131,10 +130,10 @@
   width: 60vw;
 }
 
-.containerTextTreatments,
+.containerTextTreatmentsLeft,
 .containerTextTreatmentsRight {
   margin: 0 1em;
-  width: 90%;
+  width: 70%;
   font-family: "Inclusive Sans";
 }
 
@@ -144,7 +143,6 @@
   text-decoration: underline;
   color: #038d6c;
   font-family: "Inclusive Sans";
-  white-space: nowrap;
 }
 
 .containerTextTreatmentsRight {
@@ -158,7 +156,6 @@
 .imgTreatments {
   width: 23vw;
   height: 20vw;
-  margin: 2vw;
   object-fit: cover;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -171,144 +168,130 @@
   width: 60vw;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) {      
   .title1 {
     font-size: 2.5em;
   }
-
+  
   .title2 {
     font-size: 2em;
   }
-
+  
   /* Um pouco sobre nós e tratamentos */
-
-  .containerSentence h3 {
-    font-size: 1em;
+  
+  .containerResume {
+    width: 60vw;
+    align-self: center;
+    margin: 2em 0;
   }
-
+  
+  .titleResume {
+    text-align: center;
+    color: #038d6c;
+    font-family: "Inclusive Sans";
+  }
+  
+  .containerButton {
+    justify-content: center;
+    display: flex;
+    margin: 1em 0;
+  }
+  
+  .button {
+    padding: 1em;
+    border: 2px solid #038d6c;
+    color: #038d6c;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    width: 10vw;
+    margin: 1em 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #038d6c;
+    color: #fff;
+  }
+  
+  .containerSentence {
+    background-color: #038d6c;
+    padding: 3em 2em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .line {
+    width: 40vw;
+    color: #fff;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .paragraphResume {
+    margin-top: 2em;
+    text-align: justify;
+    font-family: "Inclusive Sans";
+  }
+  
+  .containerTreatments {
+    margin: 2em 0;
+  }
+  
+  .titleTreatments {
+    margin-top: 1em;
+    text-align: center;
+    font-family: "Inclusive Sans";
+    color: #038d6c;
+  }
+  
+  .containerImgTextTreatmentsRight,
+  .containerImgTextTreatmentsLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em 0;
+    width: 60vw;
+  }
+  
+  .containerTextTreatmentsLeft,
+  .containerTextTreatmentsRight {
+    margin: 0 1em;
+    width: 70%;
+    font-family: "Inclusive Sans";
+  }
+  
+  .containerTextTreatments h3,
+  .containerTextTreatmentsRight h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: #038d6c;
+    font-family: "Inclusive Sans";
+  }
+  
+  .containerTextTreatmentsRight {
+    text-align: end;
+  }
+  
+  .containerTextTreatmentsRight p {
+    text-align: justify;
+  }
+  
+  .imgTreatments {
+    width: 23vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
   .lineTreatments {
     background-color: #038d6c;
     border-radius: 20px;
     height: 1px;
     width: 60vw;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .containerImgTitle {
-    display: flex;
-  }
-
-  .containerTitles {
-    flex-direction: column;
-    position: absolute;
-    top: 25%;
-    transform: translateY(-50%);
-    z-index: 1;
-  }
-
-  .background {
-    width: 100%;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
-    filter: brightness(35%);
-  }
-
-  .title1,
-  .title2 {
-    text-align: center;
-  }
-
-  .title1 {
-    font-size: 1.8em;
-    color: #038d6c;
-    font-family: "Martian Mono";
-    word-spacing: -15px;
-  }
-
-  .title2 {
-    font-size: 1.3em;
-    color: #adc8b7;
-    font-family: "Inclusive Sans";
-  }
-
-  /* Um pouco sobre nós e tratamentos */
-
-  .button {
-    font-size: 0.8em;
-    width: 25vw;
-  }
-
-  .containerResume {
-    width: 70vw;
-  }
-
-  .titleResume {
-    font-size: 1.5em;
-  }
-
-  .paragraphResume {
-    font-size: 0.9em;
-  }
-
-  .containerSentence {
-    padding: 1.5em 1em;
-  }
-
-  .containerSentence h3 {
-    font-size: 0.9em;
-  }
-
-  .titleTreatments {
-    font-size: 1.5em;
-  }
-
-  .containerTreatments {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .containerImgTextTreatmentsRight,
-  .containerImgTextTreatmentsLeft {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 1.5em 0;
-    width: 80%;
-  }
-
-  .containerTextTreatments,
-  .containerTextTreatmentsRight {
-    order: 1;
-  }
-  
-  .containerTextTreatmentsRight p, .containerTextTreatments p {
-    text-align: justify;
-  }
-
-  .containerImgTreatments {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    order: 2;
-  }
-
-  .imgTreatments {
-    width: 90%;
-    height: 50vw;
-    margin: 1vw;
-    object-fit: cover;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-
-  .lineTreatments {
-    background-color: #038d6c;
-    border-radius: 20px;
-    height: 1px;
-    width: 80vw;
   }
 }
