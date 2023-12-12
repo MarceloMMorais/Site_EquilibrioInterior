@@ -81,17 +81,17 @@ function Home() {
           axis="horizontal"
         >
           <div>
-            <video width="750" height="300" autoPlay muted playsInline loop>
+            <video className={styles.videoSlider} autoPlay muted playsInline loop>
               <source src={video1} type="video/mp4" />
             </video>
           </div>
           <div>
-            <video width="750" height="300" autoPlay muted playsInline loop>
+            <video className={styles.videoSlider} autoPlay muted playsInline loop>
               <source src={video2} type="video/mp4" />
             </video>
           </div>
           <div>
-            <video width="750" height="300" autoPlay muted playsInline loop>
+            <video className={styles.videoSlider} autoPlay muted playsInline loop>
               <source src={video3} type="video/mp4" />
             </video>
           </div>

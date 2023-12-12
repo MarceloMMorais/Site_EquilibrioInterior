@@ -7,7 +7,6 @@ import Maps from '../images/PhotoMaps.png'
 import Header from "../components/Header";
 import ButtonWhatsScroll from "../components/ButtonWhatsScroll.js";
 import styles from "../styles/Contact.module.css";
-import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -109,7 +108,7 @@ function Contact() {
               name="accessKey"
               value="d1f90f58-5fee-4da2-bf45-5e359b291014"
             />
-            <input type="hidden" name="redirectTo" value="https://equilibriointerior.netlify.app/Fale-Conosco"></input>
+            <input type="hidden" name="redirectTo" value="https://equilibriointerior.netlify.app"></input>
           </form>
         </div>
         <ButtonWhatsScroll/>
