@@ -96,7 +96,7 @@ function Home() {
             </video>
           </div>
           <div>
-            <video width="750" height="300" autoPlay muted playsInline loop>
+            <video className={styles.videoSlider} autoPlay muted playsInline loop>
               <source src={video4} type="video/mp4" />
             </video>
           </div>
