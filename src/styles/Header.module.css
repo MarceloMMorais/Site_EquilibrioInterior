@@ -2,11 +2,14 @@
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 1em;
   align-items: center;
   position: fixed;
-  width: 100%;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 100vw;
   z-index: 9;
   box-sizing: border-box;
 }
@@ -91,11 +94,12 @@
     right: 0;
     background-color: #038d6c;
     width: 100%;
-    height:fit-content;
+    height: fit-content;
     z-index: 10;
   }
 
   .showMenu.menuLinks {
-    display: flex; /* Alterado para flex em vez de block */
+    display: flex;
+    /* Alterado para flex em vez de block */
   }
 }

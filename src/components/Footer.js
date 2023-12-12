@@ -37,21 +37,21 @@ function Footer() {
           <div className={styles.containerIcons}>
             <SocialIcon
               className={styles.SocialIcons}
-              href="https://www.youtube.com/"
+              href="https://instagram.com/e.quilibriointerior?igshid=MzMyNGUyNmU2YQ=="
               fgColor="#038d6c"
               bgColor="#FFF"
               url="https://www.instagram.com"
             />
             <SocialIcon
               className={styles.SocialIcons}
-              href="https://www.youtube.com/"
+              href="https://www.facebook.com/equilibriointeriorterapias?mibextid=LQQJ4d"
               fgColor="#038d6c"
               bgColor="#FFF"
               url="https://www.facebook.com"
             />
             <SocialIcon
               className={styles.SocialIcons}
-              href="https://www.youtube.com/"
+              href="https://api.whatsapp.com/send?phone=5512997228453"
               fgColor="#038d6c"
               bgColor="#FFF"
               url="https://www.whatsapp.com/"

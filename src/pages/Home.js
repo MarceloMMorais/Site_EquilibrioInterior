@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
+import ButtonWhatsScroll from "../components/ButtonWhatsScroll.js";
 import background from "../images/Banner_home.jpg";
 import styles from "../styles/Home.module.css";
 
 import image1 from "../images/acupuntura.jpg";
 import image2 from "../images/quiro.jpg";
 import image3 from "../images/massage.jpg";
+
+// Slider
+import video1 from "../videos/video1.mp4";
+import video2 from "../videos/video2.mp4";
+import video3 from "../videos/video3.mp4";
+import video4 from "../videos/video4.mp4";
 
 function Home() {
   const [shouldApplyBackground, setShouldBackground] = useState(false);
@@ -65,6 +74,33 @@ function Home() {
           muitos indivíduos enfrentam desafios emocionais que se manifestam de
           diversas formas, afetando sua saúde e qualidade de vida.
         </p>
+        <Carousel
+          showStatus={false}
+          showThumbs={false}
+          emulateTouch
+          axis="horizontal"
+        >
+          <div>
+            <video width="750" height="300" autoPlay muted playsInline loop>
+              <source src={video1} type="video/mp4" />
+            </video>
+          </div>
+          <div>
+            <video width="750" height="300" autoPlay muted playsInline loop>
+              <source src={video2} type="video/mp4" />
+            </video>
+          </div>
+          <div>
+            <video width="750" height="300" autoPlay muted playsInline loop>
+              <source src={video3} type="video/mp4" />
+            </video>
+          </div>
+          <div>
+            <video width="750" height="300" autoPlay muted playsInline loop>
+              <source src={video4} type="video/mp4" />
+            </video>
+          </div>
+        </Carousel>
         <div className={styles.containerButton}>
           <Link
             className={styles.button}
@@ -143,12 +179,17 @@ function Home() {
           </div>
         </div>
         <div className={styles.containerButton}>
-          <Link preventScrollReset={false} className={styles.button} to="/Tratamentos">
+          <Link
+            preventScrollReset={false}
+            className={styles.button}
+            to="/Tratamentos"
+          >
             Veja Mais
           </Link>
         </div>
+        <ButtonWhatsScroll />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
