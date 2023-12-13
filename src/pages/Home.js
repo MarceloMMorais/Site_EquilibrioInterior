@@ -46,6 +46,19 @@ function Home() {
       window.removeEventListener("scroll", checkImagePosition);
     };
   }, []);
+
+  const handleCarouselChange = (selectedIndex) => {
+    // Pause all videos when changing to a different slide
+    const videos = document.querySelectorAll(".video-slider");
+    videos.forEach((video) => video.pause());
+
+    // Play the video of the current slide
+    const currentVideo = document.querySelector(`#video-${selectedIndex}`);
+    if (currentVideo) {
+      currentVideo.play();
+    }
+  };
+
   return (
     <div className={styles.container}>
       <Header shouldApplyBackground={shouldApplyBackground} />
@@ -78,19 +91,41 @@ function Home() {
           showThumbs={false}
           emulateTouch
           axis="horizontal"
+          autoPlay={false} // Disable the global autoPlay
+          onChange={handleCarouselChange} // Add onChange event
+          selectedItem={0} // Start with the first video selected
         >
           <div>
-            <video className={styles.videoSlider} autoPlay muted playsInline loop>
+            <video
+              id="video-0"
+              className={`${styles.videoSlider} video-slider`}
+              autoPlay
+              muted
+              playsInline
+              loop
+            >
               <source src={video6} type="video/mp4" />
             </video>
           </div>
           <div>
-            <video className={styles.videoSlider} autoPlay muted playsInline loop>
+            <video
+              id="video-1"
+              className={`${styles.videoSlider} video-slider`}
+              muted
+              playsInline
+              loop
+            >
               <source src={video7} type="video/mp4" />
             </video>
           </div>
           <div>
-            <video className={styles.videoSlider} autoPlay muted playsInline loop>
+            <video
+              id="video-2"
+              className={`${styles.videoSlider} video-slider`}
+              muted
+              playsInline
+              loop
+            >
               <source src={video5} type="video/mp4" />
             </video>
           </div>
