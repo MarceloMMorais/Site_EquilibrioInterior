@@ -14,10 +14,9 @@ import image2 from "../images/quiro.jpg";
 import image3 from "../images/massage.jpg";
 
 // Slider
-import video1 from "../videos/video1.mp4";
-import video2 from "../videos/video2.mp4";
-import video3 from "../videos/video3.mp4";
-import video4 from "../videos/video4.mp4";
+import video6 from "../videos/video6.mp4";
+import video7 from "../videos/video7.mp4";
+import video5 from "../videos/video5.mp4";
 
 function Home() {
   const [shouldApplyBackground, setShouldBackground] = useState(false);
@@ -82,22 +81,17 @@ function Home() {
         >
           <div>
             <video className={styles.videoSlider} autoPlay muted playsInline loop>
-              <source src={video1} type="video/mp4" />
+              <source src={video6} type="video/mp4" />
             </video>
           </div>
           <div>
             <video className={styles.videoSlider} autoPlay muted playsInline loop>
-              <source src={video2} type="video/mp4" />
+              <source src={video7} type="video/mp4" />
             </video>
           </div>
           <div>
             <video className={styles.videoSlider} autoPlay muted playsInline loop>
-              <source src={video3} type="video/mp4" />
-            </video>
-          </div>
-          <div>
-            <video className={styles.videoSlider} autoPlay muted playsInline loop>
-              <source src={video4} type="video/mp4" />
+              <source src={video5} type="video/mp4" />
             </video>
           </div>
         </Carousel>
