@@ -25,7 +25,7 @@ function AnimatedValue({ initialValue, toValue, duration, isActive, setIsActive 
       requestAnimationFrame(animate);
       setIsActive(true)
     }
-    if(currentValue == 0){
+    if(currentValue === 0){
       setCurrentValue(toValue)
     }
 

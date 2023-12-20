@@ -1,22 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+// Importação de componentes
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
 import ButtonWhatsScroll from "../components/ButtonWhatsScroll.js";
-import background from "../images/Banner_home.jpg";
+import Slider from "../components/Slider.js";
+
+// Arquivo css
 import styles from "../styles/Home.module.css";
 
+// Imagens utilizadas
+import background from "../images/Banner_home.jpg";
 import image1 from "../images/acupuntura.jpg";
 import image2 from "../images/quiro.jpg";
 import image3 from "../images/massage.jpg";
-
-// Slider
-import video6 from "../videos/video6.mp4";
-import video7 from "../videos/video7.mp4";
-import video5 from "../videos/video5.mp4";
 
 function Home() {
   const [shouldApplyBackground, setShouldBackground] = useState(false);
@@ -47,18 +45,6 @@ function Home() {
     };
   }, []);
 
-  const handleCarouselChange = (selectedIndex) => {
-    // Pause all videos when changing to a different slide
-    const videos = document.querySelectorAll(".video-slider");
-    videos.forEach((video) => video.pause());
-
-    // Play the video of the current slide
-    const currentVideo = document.querySelector(`#video-${selectedIndex}`);
-    if (currentVideo) {
-      currentVideo.play();
-    }
-  };
-
   return (
     <div className={styles.container}>
       <Header shouldApplyBackground={shouldApplyBackground} />
@@ -86,50 +72,7 @@ function Home() {
           muitos indivíduos enfrentam desafios emocionais que se manifestam de
           diversas formas, afetando sua saúde e qualidade de vida.
         </p>
-        <Carousel
-          showStatus={false}
-          showThumbs={false}
-          emulateTouch
-          axis="horizontal"
-          autoPlay={false} // Disable the global autoPlay
-          onChange={handleCarouselChange} // Add onChange event
-          selectedItem={0} // Start with the first video selected
-        >
-          <div>
-            <video
-              id="video-0"
-              className={`${styles.videoSlider} video-slider`}
-              autoPlay
-              muted
-              playsInline
-              loop
-            >
-              <source src={video6} type="video/mp4" />
-            </video>
-          </div>
-          <div>
-            <video
-              id="video-1"
-              className={`${styles.videoSlider} video-slider`}
-              muted
-              playsInline
-              loop
-            >
-              <source src={video7} type="video/mp4" />
-            </video>
-          </div>
-          <div>
-            <video
-              id="video-2"
-              className={`${styles.videoSlider} video-slider`}
-              muted
-              playsInline
-              loop
-            >
-              <source src={video5} type="video/mp4" />
-            </video>
-          </div>
-        </Carousel>
+        <Slider />
         <div className={styles.containerButton}>
           <Link
             className={styles.button}

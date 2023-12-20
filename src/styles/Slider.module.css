@@ -1,0 +1,58 @@
+.slideContent {
+  position: relative;
+  width: 110%;
+  transition: all 3s;
+}
+
+.videoSlider {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.buttonContainer {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.leftButton,
+.rightButton {
+  background-color: #038d6c;
+  border-radius: 100%;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftButton:hover,
+.rightButton:hover {
+  color: #038d6c;
+  background-color: #fff;
+}
+
+.leftButton {
+  left: 0;
+}
+
+.rightButton {
+  right: 0;
+}
+
+.hiddenButton {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .slideContent {
+    width: 100%;
+  }
+}

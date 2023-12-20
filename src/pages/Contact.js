@@ -57,7 +57,7 @@ function Contact() {
             </div>
           </div>
           <div>
-            <a target="_blank" href="https://www.google.com.br/maps/place/Equil%C3%ADbrio+Interior+Terapias+Naturais/@-23.8001732,-45.4019522,17z/data=!3m1!4b1!4m6!3m5!1s0x94d29bf0f2580595:0xc2eb8092d00b565a!8m2!3d-23.8001732!4d-45.4019522!16s%2Fg%2F11h2hhn22n?entry=ttu">
+            <a target="_blank" rel="noreferrer" href="https://www.google.com.br/maps/place/Equil%C3%ADbrio+Interior+Terapias+Naturais/@-23.8001732,-45.4019522,17z/data=!3m1!4b1!4m6!3m5!1s0x94d29bf0f2580595:0xc2eb8092d00b565a!8m2!3d-23.8001732!4d-45.4019522!16s%2Fg%2F11h2hhn22n?entry=ttu">
               <img
                 src={Maps}
                 alt="Localização"
