@@ -66,65 +66,65 @@ function Treatment() {
       title: "Drenagem Linfática",
       image: image5,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "A Drenagem Linfática é uma técnica de massagem terapêutica que visa estimular o sistema linfático, responsável pela remoção de toxinas e resíduos do corpo. Realizada por profissionais especializados, a técnica utiliza movimentos suaves e ritmados que direcionam o excesso de líquidos acumulados nos tecidos para os gânglios linfáticos, promovendo a eliminação de edemas, melhorando a circulação sanguínea e fortalecendo o sistema imunológico.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Além de seus benefícios estéticos, a Drenagem Linfática é frequentemente indicada como parte do tratamento pós-operatório, na redução de inchaços e para aliviar a sensação de pernas cansadas, proporcionando uma sensação de relaxamento e bem-estar.",
     },
     {
       title: "Liberação Miofascial",
       image: image6,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "A Liberação Miofascial é uma técnica terapêutica que visa aliviar tensões e restrições nos tecidos conjuntivos, conhecidos como fáscia, que envolvem músculos, ossos e órgãos. A técnica consiste em aplicar pressão controlada e sustentada em áreas específicas, buscando desfazer aderências e melhorar a flexibilidade dos músculos e das camadas subjacentes da fáscia. Essa abordagem não apenas alivia dores musculares, mas também pode contribuir para a melhoria da postura, aumento da amplitude de movimento e otimização da função muscular.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "A Liberação Miofascial é frequentemente utilizada em terapias físicas e esportivas, proporcionando benefícios tanto para atletas em recuperação quanto para indivíduos que buscam alívio de desconfortos musculares crônicos.",
     },
     {
       title: "Massagem Relaxante",
       image: image7,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "A Massagem Relaxante é uma técnica suave e delicada projetada para promover o relaxamento físico e mental. Realizada através de movimentos lentos e envolventes, essa modalidade de massagem busca aliviar o estresse, reduzir a tensão muscular e induzir uma sensação profunda de tranquilidade.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Ao utilizar pressões suaves e deslizamentos, os terapeutas especializados em Massagem Relaxante visam criar uma experiência terapêutica que estimule a liberação de endorfinas, promovendo um estado de calma e bem-estar que beneficia tanto o corpo quanto a mente.",
     },
     {
       title: "Massagem Terapêutica",
       image: image8,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "A Massagem Terapêutica é uma prática holística que combina técnicas manuais para promover o bem-estar físico e emocional. Essa forma de massagem visa aliviar dores musculares, reduzir o estresse e melhorar a circulação sanguínea. Através de movimentos específicos, pressões e manipulações, a Massagem Terapêutica pode ser adaptada para atender às necessidades individuais, proporcionando relaxamento profundo, alívio de tensões e contribuindo para a promoção da saúde geral.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Essa modalidade de massagem é frequentemente incorporada em tratamentos de reabilitação, gestão da dor e programas de bem-estar, oferecendo uma abordagem integrativa para o cuidado do corpo e da mente.",
     },
     {
       title: "Microfisioterapia",
       image: image9,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "A Microfisioterapia é uma abordagem terapêutica que busca identificar e tratar as causas profundas de sintomas e disfunções no corpo. Desenvolvida por fisioterapeutas franceses, essa técnica considera que as memórias traumáticas e os desequilíbrios energéticos podem ser registrados nas células do corpo, contribuindo para problemas de saúde.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Durante uma sessão de Microfisioterapia, nós utilizamos toques sutis em diferentes áreas do corpo para identificar os bloqueios e estimular a autocorreção do organismo, promovendo a restauração do equilíbrio e favorecendo a recuperação natural. Essa abordagem integrativa visa não apenas tratar os sintomas, mas compreender e abordar as causas subjacentes das condições de saúde.",
     },
     {
       title: "Moxaterapia",
       image: image10,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "A Moxaterapia é uma técnica terapêutica tradicional da medicina chinesa que utiliza a queima de moxa, uma substância feita de Artemisia vulgaris (erva-mãe), para estimular pontos específicos no corpo. Durante uma sessão de Moxaterapia, pequenas quantidades de moxa são acesas e colocadas sobre pontos de acupuntura ou movimentadas próximas à pele, gerando calor. Esse calor é acreditado por praticantes da medicina chinesa tradicional como capaz de estimular o fluxo de energia vital, aliviando dores, fortalecendo o sistema imunológico e promovendo o equilíbrio energético no corpo.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "A Moxaterapia é frequentemente usada em conjunto com a acupuntura, sendo considerada uma prática complementar para tratar uma variedade de condições, desde dores musculares até problemas digestivos. Seu objetivo é restabelecer o fluxo harmonioso de energia no corpo, proporcionando uma abordagem holística para a promoção da saúde e o alívio de desconfortos físicos.",
     },
     {
       title: "New Seitai",
       image: image11,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "Em breve novas informações sobre este tratamento.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "",
     },
     {
       title: "Quick",
       image: image12,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "Em breve novas informações sobre este tratamento.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "",
     },
     {
       title: "Quiropraxia",
@@ -138,49 +138,49 @@ function Treatment() {
       title: "Terapia com Florais",
       image: image14,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "A Terapia com Florais é uma abordagem de medicina alternativa que utiliza essências florais para promover o equilíbrio emocional e o bem-estar psicológico. Criada pelo médico inglês Edward Bach na década de 1930, essa terapia envolve a seleção de essências florais específicas, cada uma associada a estados emocionais particulares.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Essas essências são diluídas e administradas ao paciente, com o objetivo de harmonizar as emoções, aliviar o estresse e promover um estado mental mais positivo. A Terapia com Florais é frequentemente considerada uma prática complementar, destinada a apoiar o aspecto emocional e mental da saúde, contribuindo para o tratamento de questões como ansiedade, depressão e desequilíbrios emocionais.",
     },
     {
       title: "Terapias Combinadas",
       image: image15,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "As Terapias Combinadas referem-se à abordagem terapêutica que integra diferentes técnicas e modalidades para oferecer um tratamento abrangente e personalizado. Essa prática envolve a combinação de diversas terapias complementares, como massagem, acupuntura, quiropraxia, entre outras, adaptadas de acordo com as necessidades individuais do paciente.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "O objetivo é criar uma sinergia entre as diferentes abordagens, visando maximizar os benefícios terapêuticos e promover uma abordagem holística para a saúde e o bem-estar. Essa integração pode proporcionar uma resposta mais eficaz a uma variedade de condições, abordando tanto os aspectos físicos quanto emocionais do paciente.",
     },
     {
       title: "Tratamento da Dor",
       image: image16,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "O Tratamento da Dor abrange uma variedade de abordagens terapêuticas destinadas a aliviar ou gerenciar desconfortos físicos. Este pode incluir métodos farmacológicos, como analgésicos, anti-inflamatórios e terapias medicamentosas, além de intervenções não farmacológicas, como fisioterapia, acupuntura, massagem e exercícios físicos específicos.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "O objetivo principal é identificar a causa subjacente da dor e aplicar estratégias adequadas para minimizar os sintomas, promovendo a recuperação e melhor qualidade de vida para o paciente. A abordagem escolhida pode variar de acordo com a natureza e a intensidade da dor, proporcionando uma gama diversificada de opções para atender às necessidades individuais de cada pessoa.",
     },
     {
       title: "Tratamento para Fibromialgia",
       image: image17,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "O Tratamento para Fibromialgia envolve uma abordagem multidisciplinar, visto que essa condição crônica caracterizada por dor generalizada e sensibilidade nos músculos e tecidos moles pode afetar diversos aspectos da vida do paciente. Os protocolos terapêuticos comumente incluem medicamentos para aliviar a dor, melhorar o sono e controlar sintomas associados, como depressão e ansiedade.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Além disso, terapias não farmacológicas, como exercícios físicos adaptados, fisioterapia, técnicas de relaxamento, acupuntura e aconselhamento psicológico, são frequentemente incorporadas para proporcionar uma abordagem holística, visando melhorar a qualidade de vida e gerenciar os sintomas da fibromialgia de maneira mais abrangente.",
     },
     {
       title: "Ventosaterapia",
       image: image18,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "A Ventosaterapia é uma técnica terapêutica que utiliza copos de vidro ou plástico para criar sucção na pele, estimulando a circulação sanguínea e promovendo o alívio de tensões musculares. Durante o procedimento, os copos são colocados sobre áreas específicas do corpo, criando um vácuo que pode resultar em marcas temporárias circulares na pele.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Esta prática, originada em antigas medicinas tradicionais, é frequentemente utilizada para tratar dores musculares, promover o relaxamento e melhorar a circulação, sendo uma opção complementar em diversos tratamentos de fisioterapia e bem-estar.",
     },
     {
       title: "Yogaterapia",
       image: image19,
       paragraph1:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "Em breve novas informações sobre este tratamento que iremos implantar em nossa clínica.",
       paragraph2:
-        "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "",
     },
   ];
 
