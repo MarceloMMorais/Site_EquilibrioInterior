@@ -72,7 +72,7 @@ function Home() {
           muitos indivíduos enfrentam desafios emocionais que se manifestam de
           diversas formas, afetando sua saúde e qualidade de vida.
         </p>
-        <Slider />
+        <Slider name="videos"/>
         <div className={styles.containerButton}>
           <Link
             className={styles.button}

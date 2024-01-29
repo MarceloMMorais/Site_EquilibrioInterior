@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import AnimatedValue from "../components/AnimatedValue";
 import ButtonWhatsScroll from "../components/ButtonWhatsScroll.js";
+import Slider from "../components/Slider.js";
 
 import styles from "../styles/About.module.css";
 
@@ -212,6 +213,10 @@ function About() {
             <p>Horas Trabalhadas</p>
           </div>
         </div>
+      </div>
+      <div className={styles.containerSliderAbout}>
+        <p>Nossa Clínica:</p>
+        <Slider name="images"/>
       </div>
       <div className={styles.containerText}>
         <h3>

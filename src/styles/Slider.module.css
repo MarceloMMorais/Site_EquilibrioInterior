@@ -3,10 +3,20 @@
   width: 110%;
   transition: all 3s;
 }
-
-.videoSlider {
+.videoSlider{
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 15px;
+  display: block; /* Garante que a imagem seja exibida como bloco */
+}
+
+.imgSlider{
+  width: 100%;
+  height: 60vh;
+  object-fit: fill;
+  border-radius: 15px;
+  display: block; /* Garante que a imagem seja exibida como bloco */
 }
 
 .buttonContainer {
@@ -54,5 +64,9 @@
 @media only screen and (max-width: 768px) {
   .slideContent {
     width: 100%;
+    height: auto; /* Altura flexível para layout responsivo */
+  }
+  .imgSlider{
+    height: 30vh;
   }
 }

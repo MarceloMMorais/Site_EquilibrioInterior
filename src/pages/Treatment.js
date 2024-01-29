@@ -24,7 +24,6 @@ import image15 from "../images/combinada_tratamento.jpg"; //Terapias combinadas
 import image16 from "../images/dor_tratamento.jpg"; //Tratamento da dor
 import image17 from "../images/fibrimialgia_tratamento.jpeg"; //Tratamento para fibromialgia
 import image18 from "../images/ventosa_tratamento.jpg"; //Ventosaterapia
-import image19 from "../images/quiro.jpg"; //Yogaterapia
 
 import background from "../images/Banner_Tratamentos2.png";
 
@@ -173,15 +172,7 @@ function Treatment() {
         "A Ventosaterapia é uma técnica terapêutica que utiliza copos de vidro ou plástico para criar sucção na pele, estimulando a circulação sanguínea e promovendo o alívio de tensões musculares. Durante o procedimento, os copos são colocados sobre áreas específicas do corpo, criando um vácuo que pode resultar em marcas temporárias circulares na pele.",
       paragraph2:
         "Esta prática, originada em antigas medicinas tradicionais, é frequentemente utilizada para tratar dores musculares, promover o relaxamento e melhorar a circulação, sendo uma opção complementar em diversos tratamentos de fisioterapia e bem-estar.",
-    },
-    {
-      title: "Yogaterapia",
-      image: image19,
-      paragraph1:
-        "Em breve novas informações sobre este tratamento que iremos implantar em nossa clínica.",
-      paragraph2:
-        "",
-    },
+    }
   ];
 
   const [shouldApplyBackground, setShouldBackground] = useState(false);
@@ -215,7 +206,6 @@ function Treatment() {
   const throttle = require("lodash/throttle");
 
   const players = Array.from(document.querySelectorAll("img"));
-  console.log(players);
 
   function isOnScreen(el) {
     let rect = el.getBoundingClientRect();
@@ -233,9 +223,10 @@ function Treatment() {
 
   function handleScrollTo(id) {
     const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    window.scrollTo({
+      top: element.offsetTop - 200,
+      behavior: "smooth",
+    });
   }
 
   return (
