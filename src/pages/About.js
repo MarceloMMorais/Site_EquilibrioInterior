@@ -155,8 +155,12 @@ function About() {
           cada indivíduo que busca meus serviços.
         </p>
       </div>
+<<<<<<< HEAD
       <hr className={styles.line} />
       {/*<div className={styles.containerNumbers} ref={containerNumbersRef}>
+=======
+      <div className={styles.containerNumbers} ref={containerNumbersRef}>
+>>>>>>> 1498874aecc76d8895d4bd0229672b46efbaa21f
         <h2>Os números não mentem:</h2>
         <div className={styles.containerHorizontalNumbers}>
           <div>
@@ -214,7 +218,11 @@ function About() {
             <p>Horas Trabalhadas</p>
           </div>
         </div>
+<<<<<<< HEAD
             </div>*/}
+=======
+      </div>
+>>>>>>> 1498874aecc76d8895d4bd0229672b46efbaa21f
       <div className={styles.containerSliderAbout}>
         <p>Nossa Clínica:</p>
         <Slider name="images"/>

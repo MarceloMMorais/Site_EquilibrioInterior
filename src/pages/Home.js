@@ -11,10 +11,17 @@ import Slider from "../components/Slider.js";
 import styles from "../styles/Home.module.css";
 
 // Imagens utilizadas
+<<<<<<< HEAD
 import background from "../images/Banner_home_novo2.jpg";
 import image1 from "../images/Tratamentos/acupuntura_tratamento.jpg";
 import image2 from "../images/Tratamentos/quiropraxia.jpg";
 import image3 from "../images/Tratamentos/Massagem_Relaxante.jpg";
+=======
+import background from "../images/Banner_home.jpg";
+import image1 from "../images/acupuntura.jpg";
+import image2 from "../images/quiro.jpg";
+import image3 from "../images/massage.jpg";
+>>>>>>> 1498874aecc76d8895d4bd0229672b46efbaa21f
 
 function Home() {
   const [shouldApplyBackground, setShouldBackground] = useState(false);

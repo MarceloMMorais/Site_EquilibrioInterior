@@ -159,10 +159,17 @@
 }
 
 .imgTreatments {
+<<<<<<< HEAD
   width: 18vw;
   height: 18vw;
   object-fit: cover;
   border-radius: 50%;
+=======
+  width: 23vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 5px;
+>>>>>>> 1498874aecc76d8895d4bd0229672b46efbaa21f
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
