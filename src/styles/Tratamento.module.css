@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css?family=Inclusive+Sans");
+@import url("https://fonts.googleapis.com/css?family=Martian+Mono");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(70%);
+}
+
+.titleTreatments {
+  margin-top: 1em;
+  text-align: center;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #038d6c;
+  font-weight: bold;
+}
+
+.containerTreatments,
+.containerImgTextTreatments {
+  margin: 2em 0;
+}
+
+.containerTreatments {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.containerImgTextTreatments {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 80%;
+  min-height: 50vh;
+}
+
+.tittle {
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+  text-transform: uppercase;
+  align-items: center;
+  color: #038d6c;
+  font-family: "Poetsen One", sans-serif;
+}
+
+.containerImgTextTreatments h2 {
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(-220%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.imgTreatments {
+  animation: slideInRight;
+}
+
+.imgTreatments {
+  width: 18vw;
+  height: 18vw;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.containerImgTextTreatments .containerTextTreatments {
+  order: 2;
+  margin-left: 2rem;
+  align-self: baseline;
+  border: 1px solid #adc8b7;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.containerTittle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.containerTittle div {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.containerTittle h3 {
+  text-decoration: none;
+  color: #038d6c;
+  font-family: "Inclusive Sans";
+  text-transform: uppercase;
+  margin: 0 0 0 0.5rem;
+  align-self: center;
+}
+
+.containerParagrafos {
+  overflow: hidden;
+  border-radius: 0 0 5px 5px;
+  margin-left: 2rem;
+  box-sizing: border-box;
+  max-height: 0; /* Começa com altura zero */
+  opacity: 0; /* Começa com opacidade zero */
+  transition: max-height 0.3s ease, opacity 0.3s ease; /* Adiciona transições para altura e opacidade */
+}
+
+.containerParagrafos p {
+  text-align: justify;
+  font-family: "Comic Neue", cursive;
+}
+
+.visible {
+  max-height: 1000px; /* Define a altura máxima desejada */
+  opacity: 1; /* Torna o parágrafo visível */
+  padding: 0.8rem;
+}
+
+.hidden {
+  max-height: 0; /* Mantém a altura como zero */
+  opacity: 0; /* Torna o parágrafo invisível */
+  padding: 0;
+}
+
+.lineTreatments {
+  background-color: #038d6c;
+  border-radius: 20px;
+  height: 1px;
+  width: 75vw;
+  margin-bottom: 2rem;
+}
+
+.scroll-highlight {
+  transition: border-color 0.5s ease;
+}
+
+.scroll-highlight:focus {
+  outline: none;
+  border-color: #007bff;
+  /* ou qualquer outra cor de destaque desejada */
+}
+
+.columnsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.columnsContainer ul {
+  list-style: none;
+}
+
+.columnsContainer a {
+  cursor: pointer;
+  color: #038d6c;
+}
+
+.columnsContainer a:hover {
+  text-decoration: underline;
+}
+
+.column li {
+  margin-top: 10px;
+}
+
+/* ------------------- Formatação para Dispositivos Movéis -------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .background {
+    height: 80vh;
+  }
+
+  .tittle {
+    font-size: 1rem;
+  }
+
+  .containerTittle {
+    font-size: 0.8rem;
+  }
+
+  .containerTittle h3 {
+    align-self: center;
+  }
+
+  .imgTreatments {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .containerImgTreatments {
+    align-self: flex-start;
+  }
+
+  .containerTreatments {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .containerImgTextTreatments {
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+
+  .columnsContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .column {
+    width: 40%;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .background {
+    height: 40vh;
+  }
+
+  .titleTreatments {
+    font-size: 0.8em;
+  }
+
+  .tittle {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .containerTittle {
+    font-size: 0.7rem;
+  }
+
+  .tittleValue:last-child{
+    text-align: right;
+  }
+
+  .containerTreatments {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .containerImgTextTreatments {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    min-height: fit-content;
+  }
+
+  .imgTreatments {
+    width: 80vw;
+    height: 50vw;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .containerImgTreatments {
+    display: flex;
+    justify-content: center;
+    order: 1;
+  }
+
+  .containerImgTextTreatments .containerTextTreatments {
+    order: 2;
+    margin: 0 0.3rem;
+    box-sizing: content-box;
+    width: 90%;
+    align-self: center;
+  }
+
+  .containerParagrafos {
+    margin: 0;
+  }
+
+  .containerTextTreatments p {
+    text-align: justify;
+    margin: 1em 1.5em;
+  }
+
+  .lineTreatments {
+    background-color: #038d6c;
+    border-radius: 20px;
+    height: 1px;
+    width: 80vw;
+  }
+
+  .columnsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .column li {
+    margin-top: 10px;
+    white-space: nowrap;
+    font-size: 0.9em;
+    width: 10vw;
+  }
+}

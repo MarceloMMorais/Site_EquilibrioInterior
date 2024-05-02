@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css?family=Inclusive+Sans");
+@import url("https://fonts.googleapis.com/css?family=Martian+Mono");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    font-family: "Inclusive Sans";
+    color: #038d6c;
+    margin: 10% 0 5% 0;
+}
+
+.containerInfoOwner {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: flex-end;
+}
+
+.containerTextOwner {
+    color: #038d6c;
+}
+
+.imageOwner {
+    width: 30vw;
+    border-radius: 100%;
+    margin-right: 15vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.containerTextOwner {
+    width: 50%;
+}
+
+.line {
+    background-color: #038d6c;
+    border-radius: 20px;
+    height: 1px;
+    width: 60vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.containerVertical {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    width: 80%;
+}
+
+.containerSliderAbout{
+    margin-bottom: 3rem;
+}
+
+.containerVertical p,
+.containerSliderAbout p,
+.containerNumbers span,
+.containerHorizontalNumbers h2,
+.containerHorizontalText p {
+    color: #038d6c;
+    text-align: justify;
+}
+
+.containerHorizontalNumbers span {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.3em #038d6c
+}
+
+.containerVertical p:first-child,
+.containerHorizontalNumbers p,
+.containerSliderAbout p,
+.containerNumbers h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5vh;
+    text-shadow: 0.1em 0.1em 0.3em #038d6c;
+}
+
+p.textEndOwner {
+    width: 50%;
+    color: #000;
+    margin: 3vh 0;
+    font-weight: bold;
+}
+
+.containerVertical span {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.containerHorizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerHorizontal div {
+    width: 45%;
+}
+
+.containerNumbers {
+    background-color: #ADC8b7;
+    margin: 5vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.containerHorizontalNumbers {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.containerNumbers h2 {
+    font-size: 2.5rem;
+}
+
+.containerHorizontalNumbers div {
+    text-align: center;
+    margin: 0 2vw;
+    width: 12vw;
+}
+
+.containerText {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.containerText h3 {
+    text-align: center;
+}
+
+.containerText div {
+    width: 80%;
+}
+
+.containerHorizontalText {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.containerHorizontalText div {
+    margin: 0 2vw;
+}
+
+.containerHorizontalText span {
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.3em #038d6c;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .title {
+        margin-top: 10vh;
+    }
+
+    p.textEndOwner {
+        width: 80%;
+    }
+
+    .containerNumbers {
+        background-color: #ADC8b7;
+        margin: 5vh 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .containerHorizontalNumbers {
+        width: 80%;
+    }
+
+    .containerNumbers h2 {
+        font-size: 2rem;
+    }
+
+    .containerHorizontalNumbers div {
+        text-align: center;
+        margin: 0 2vw;
+        width: 26%;
+    }
+
+    .containerText {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .containerText div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+        margin-top: 10vh;
+    }
+
+
+    .containerInfoOwner {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerImageOwner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imageOwner {
+        width: 50vw;
+        border-radius: 10px;
+        margin-right: 0;
+    }
+
+    .containerTextOwner {
+        width: 80%;
+    }
+
+    .containerTextOwner h2 {
+        white-space: nowrap;
+    }
+
+    .line {
+        width: 80vw;
+    }
+
+    .containerVertical {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .containerSliderAbout{
+        width: 90%;
+        align-self: center;
+    }
+
+    .containerVertical p,
+    .containerNumbers span,
+    .containerHorizontalNumbers h2,
+    .containerHorizontalText p {
+        color: #038d6c;
+        text-align: justify;
+    }
+
+    .containerHorizontalNumbers span {
+        font-size: 3rem;
+        font-weight: bold;
+        text-shadow: 0.1em 0.1em 0.3em #038d6c
+    }
+
+    .containerVertical p:first-child,
+    .containerHorizontalNumbers p,
+    .containerNumbers h2 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5vh;
+        text-shadow: 0.1em 0.1em 0.3em #038d6c;
+    }
+
+    p.textEndOwner {
+        width: 100%;
+        color: #000;
+    }
+
+    .containerVertical span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerHorizontal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .containerHorizontal div {
+        width: 100%;
+    }
+
+    .containerNumbers {
+        background-color: #ADC8b7;
+        margin: 5vh 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .containerHorizontalNumbers {
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+        align-items: center;
+    }
+
+    .containerNumbers h2 {
+        font-size: 1.5rem;
+    }
+
+    .containerHorizontalNumbers div {
+        text-align: center;
+        margin: 0 2vw;
+        width: 50%;
+    }
+
+    .containerText {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .containerText h3 {
+        text-align: justify;
+    }
+
+    .containerText div {
+        width: 95%;
+    }
+
+    .containerHorizontalText {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 100%;
+    }
+
+    .containerHorizontalText div {
+        margin: 0 2vw;
+    }
+
+    .containerHorizontalText span {
+        font-weight: bold;
+        text-shadow: 0.1em 0.1em 0.3em #038d6c;
+    }
+}

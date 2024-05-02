@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Inclusive+Sans");
+@import url("https://fonts.googleapis.com/css?family=Martian+Mono");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  font-family: "Inclusive Sans";
+  color: #038d6c;
+  margin-top: 5%;
+}
+
+.containerInfoForm {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 2em;
+  justify-content: space-evenly;
+}
+
+.containerInfo {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  color: #038d6c;
+  width: 100%;
+}
+
+.containerInfo p {
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+.cnpj {
+  color: #038d6c;
+  font-weight: bold;
+}
+
+.containerIcons {
+  display: flex;
+  align-items: center;
+}
+
+.redes p {
+  font-weight: bold;
+  color: #038d6c;
+  font-size: 1.1em;
+}
+
+.containerForm {
+  width: 35vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: bold;
+  color: #038d6c;
+}
+
+.input {
+  margin: 1em 0;
+  outline: none;
+  padding: .5em;
+  border-radius: 5px;
+  border: 1px solid #038d6c;
+  resize: vertical;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttonSubmit {
+  padding: 0.6em;
+  border: 2px solid #038d6c;
+  color: #038d6c;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 1em 0;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.buttonSubmit:hover {
+  background-color: #038d6c;
+  color: #FFF;
+}
+
+.imgMaps {
+  width: 40vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 1vh;
+  cursor: pointer;
+}
+
+.lineContact {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .title {
+    margin-top: 10vh;
+  }
+
+  .containerInfoForm {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .containerIcons {
+    justify-content: center;
+  }
+
+  .redes p {
+    text-align: center;
+  }
+
+  .containerForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    width: 80vw;
+  }
+
+  .containerImgMaps {
+    display: flex;
+    justify-content: center;
+  }
+
+  .imgMaps {
+    width: 80vw;
+    height: 50vw;
+    margin: 2vh 0;
+  }
+
+  .lineContact {
+    background-color: #038d6c;
+    border-radius: 20px;
+    height: 1px;
+    width: 80vw;
+    margin: 1vh auto;
+    display: flex;
+  }
+}
