@@ -61,11 +61,7 @@ function Footer() {
       </div>
       <div className={styles.lineFooter}></div>
       <div>
-<<<<<<< HEAD
         <p className={styles.copyright}>Copyright © 2023-2024 - Equílibrio Interior-Terapias Naturais</p>
-=======
-        <p className={styles.copyright}>Copyright © 2003-2023 - Equílibrio Interior-Terapias Naturais</p>
->>>>>>> 1498874aecc76d8895d4bd0229672b46efbaa21f
       </div>
     </div>
   );
