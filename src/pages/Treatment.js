@@ -25,6 +25,7 @@ import image14 from "../images/Tratamentos/quiropraxia.jpg"; //Quiropraxia
 import image15 from "../images/Tratamentos/tapping.jpeg"; //Tappyng
 import image16 from "../images/Tratamentos/tratamento_Dor_l.jpg"; //Tratamento Da Dor
 import image17 from "../images/Tratamentos/DTM.jpg"; //Tratamento De DTM / Enxaqueca
+import image19 from "../images/Tratamentos/Enxaqueca.jpeg"; //Tratamento Dor De Cabeça / Enxaqueca
 import image18 from "../images/Tratamentos/Tratamento_De_Incontinencia.jpg"; //Tratamento De Incontinência
 
 import background from "../images/Tratamentos.jpg";
@@ -35,141 +36,149 @@ function Treatment() {
       title: "Acupuntura",
       image: image1,
       paragraph1:
-        "A acupuntura é uma técnica terapêutica milenar que tem como base a crença de que o corpo humano possui canais de energia, chamados de meridianos, que estão interconectados e influenciam a saúde e o bem-estar. Quando esse fluxo de energia é perturbado, podem surgir desequilíbrios e doenças. Através da estimulação dos pontos de acupuntura, a energia é restaurada e o corpo é incentivado a se curar de forma natural.",
+        "A acupuntura é uma técnica terapêutica que remonta à antiga medicina chinesa, baseada na inserção de agulhas finas em pontos específicos do corpo. Esses pontos, situados ao longo dos meridianos, canais de energia, são estimulados para restaurar o equilíbrio do fluxo energético e promover a saúde.",
       paragraph2:
-        "Na Clínica Equilíbrio Interior, acreditamos na abordagem holística da acupuntura, que trata o corpo, a mente e o espírito como um todo interconectado.",
+        "Embora amplamente utilizada e muitas vezes associada a relatos de alívio da dor e melhoria do bem-estar, a comunidade científica continua a investigar sua eficácia em comparação com tratamentos convencionais, gerando debates sobre sua validade e mecanismos de ação.",
     },
     {
       title: "Agulhamento A Seco",
       image: image2,
       paragraph1:
-        "A aromaterapia utiliza óleos essenciais de plantas para promover o bem-estar físico e emocional. Extraídos de flores, folhas e raízes, esses óleos têm propriedades aromáticas que afetam positivamente o corpo e a mente. Podem ser inalados ou aplicados na pele, adaptando-se às necessidades individuais, como alívio do estresse ou melhoria do sono.",
+        "Agulhamento a seco, também conhecido como dry needling, é uma técnica de tratamento utilizada por profissionais de saúde, como fisioterapeutas e quiropráticos, para aliviar dores musculares e tensões. Nessa abordagem, agulhas finas são inseridas em pontos de gatilho muscular, onde há acúmulo de tensão e sensibilidade, visando reduzir a dor e restaurar a função muscular normal.",
       paragraph2:
-        "A aromaterapia contribui para redução de estresse, melhoria do humor e alívio de condições físicas, integrando-se a abordagens holísticas.",
+        "Apesar de sua popularidade crescente e relatos de eficácia por parte de muitos pacientes, a pesquisa científica sobre o agulhamento a seco ainda está em andamento, suscitando discussões sobre sua validade e mecanismos de ação comparados a outras terapias.",
     },
     {
       title: "Drenagem Em Gestantes",
       image: image3,
       paragraph1:
-        "A Acupuntura Auricular é conhecida por sua eficácia no tratamento de uma variedade de condições, incluindo dores crônicas, distúrbios do sono, ansiedade, estresse, vícios, problemas de digestão, entre outros. É uma abordagem terapêutica holística que visa tratar não apenas os sintomas, mas também as causas subjacentes dos desequilíbrios no corpo.",
+        "A drenagem linfática em gestantes é uma técnica de massagem suave que visa aliviar o inchaço e a retenção de líquidos comuns durante a gravidez. Realizada por profissionais treinados, essa terapia é adaptada para atender às necessidades específicas das mulheres grávidas, promovendo o relaxamento e melhorando a circulação sanguínea e linfática.",
       paragraph2:
-        "Durante a sessão, pequenas agulhas ou outros estímulos serão aplicados nos pontos auriculares relevantes, proporcionando um efeito terapêutico específico para o seu caso.",
+        " Embora geralmente considerada segura quando realizada adequadamente, é importante que gestantes obtenham autorização médica antes de iniciar qualquer tratamento, incluindo a drenagem linfática, para garantir a saúde tanto da mãe quanto do bebê.",
     },
     {
       title: "Drenagem Linfática",
       image: image4,
       paragraph1:
-        "A Cromoacupuntura pode ser utilizada para tratar uma variedade de condições, como dores crônicas, distúrbios do sono, ansiedade, estresse, problemas digestivos, entre outros. Cada cor possui propriedades terapêuticas específicas, e a seleção cuidadosa das cores utilizadas durante o tratamento é essencial para obter os melhores resultados.",
+        "A drenagem linfática é uma técnica de massagem terapêutica que visa estimular o sistema linfático, responsável pela remoção de toxinas e excesso de líquidos do corpo. Por meio de movimentos suaves e ritmados, essa terapia promove a drenagem dos fluidos acumulados nos tecidos, reduzindo o inchaço, melhorando a circulação e promovendo uma sensação geral de bem-estar.",
       paragraph2:
-        "É importante ressaltar que a cromoacupuntura deve ser realizada por terapeutas qualificados e experientes, que possuem conhecimento tanto em acupuntura quanto em cromoterapia.",
+        "Amplamente utilizada para tratar condições como edema, celulite e retenção de líquidos, a drenagem linfática é considerada segura e eficaz quando realizada por profissionais treinados e pode ser uma opção complementar para melhorar a saúde e a qualidade de vida.",
     },
     {
       title: "Esfoliação Corporal",
       image: image5,
       paragraph1:
-        "A Drenagem Linfática é uma técnica de massagem terapêutica que visa estimular o sistema linfático, responsável pela remoção de toxinas e resíduos do corpo. Realizada por profissionais especializados, a técnica utiliza movimentos suaves e ritmados que direcionam o excesso de líquidos acumulados nos tecidos para os gânglios linfáticos, promovendo a eliminação de edemas, melhorando a circulação sanguínea e fortalecendo o sistema imunológico.",
+        "A esfoliação corporal é um procedimento estético que consiste na remoção das células mortas da pele, proporcionando uma renovação da sua superfície. Geralmente realizada com a aplicação de produtos esfoliantes, como cremes ou géis com partículas abrasivas, ou com o uso de luvas especiais, essa técnica ajuda a promover a regeneração celular, deixando a pele mais macia, suave e luminosa.",
       paragraph2:
-        "Além de seus benefícios estéticos, a Drenagem Linfática é frequentemente indicada como parte do tratamento pós-operatório, na redução de inchaços e para aliviar a sensação de pernas cansadas, proporcionando uma sensação de relaxamento e bem-estar.",
+        "Além disso, a esfoliação corporal pode estimular a circulação sanguínea, auxiliar na absorção de hidratantes e outros tratamentos tópicos, e até mesmo melhorar a aparência de áreas com problemas como celulite e estrias.",
     },
     {
       title: "Liberação Miofacial",
       image: image6,
       paragraph1:
-        "A Liberação Miofascial é uma técnica terapêutica que visa aliviar tensões e restrições nos tecidos conjuntivos, conhecidos como fáscia, que envolvem músculos, ossos e órgãos. A técnica consiste em aplicar pressão controlada e sustentada em áreas específicas, buscando desfazer aderências e melhorar a flexibilidade dos músculos e das camadas subjacentes da fáscia. Essa abordagem não apenas alivia dores musculares, mas também pode contribuir para a melhoria da postura, aumento da amplitude de movimento e otimização da função muscular.",
+        "A liberação miofascial é uma técnica de terapia manual que visa aliviar a tensão e o desconforto muscular, bem como melhorar a mobilidade e a função dos tecidos moles do corpo. Nesse procedimento, o terapeuta utiliza pressão suave e contínua em áreas específicas do corpo, visando liberar as restrições na fáscia, uma estrutura de tecido conjuntivo que envolve e suporta músculos, ossos e órgãos.",
       paragraph2:
-        "A Liberação Miofascial é frequentemente utilizada em terapias físicas e esportivas, proporcionando benefícios tanto para atletas em recuperação quanto para indivíduos que buscam alívio de desconfortos musculares crônicos.",
+        "Ao romper aderências e pontos de tensão na fáscia, a liberação miofascial pode proporcionar alívio da dor, aumento da amplitude de movimento e melhoria da postura, sendo utilizada no tratamento de uma variedade de condições musculoesqueléticas, como dor nas costas, dor no pescoço e síndrome do túnel do carpo.",
     },
     {
       title: "Limpeza de Pele",
       image: image7,
       paragraph1:
-        "A Massagem Relaxante é uma técnica suave e delicada projetada para promover o relaxamento físico e mental. Realizada através de movimentos lentos e envolventes, essa modalidade de massagem busca aliviar o estresse, reduzir a tensão muscular e induzir uma sensação profunda de tranquilidade.",
+        "A limpeza de pele é um procedimento estético realizado por profissionais especializados para remover impurezas, células mortas, comedões (cravos) e milium (pontos brancos) da pele, deixando-a mais limpa, suave e saudável. Geralmente, o processo envolve etapas como a aplicação de vapor para abrir os poros, seguida da extração manual ou com instrumentos apropriados, e o uso de produtos específicos para limpar e hidratar a pele. Além de promover uma aparência mais radiante, a limpeza de pele pode ajudar a prevenir o surgimento de acne, reduzir a oleosidade e melhorar a absorção de outros tratamentos cosméticos.",
       paragraph2:
-        "Ao utilizar pressões suaves e deslizamentos, os terapeutas especializados em Massagem Relaxante visam criar uma experiência terapêutica que estimule a liberação de endorfinas, promovendo um estado de calma e bem-estar que beneficia tanto o corpo quanto a mente.",
+        "É importante que o procedimento seja realizado por um profissional qualificado e que seja adaptado às necessidades individuais de cada pessoa, levando em consideração seu tipo de pele e quaisquer condições dermatológicas existentes.",
     },
     {
       title: "Massagem Facial",
       image: image8,
       paragraph1:
-        "A Massagem Terapêutica é uma prática holística que combina técnicas manuais para promover o bem-estar físico e emocional. Essa forma de massagem visa aliviar dores musculares, reduzir o estresse e melhorar a circulação sanguínea. Através de movimentos específicos, pressões e manipulações, a Massagem Terapêutica pode ser adaptada para atender às necessidades individuais, proporcionando relaxamento profundo, alívio de tensões e contribuindo para a promoção da saúde geral.",
+        " massagem facial é uma técnica de terapia manual que visa relaxar os músculos do rosto, promover a circulação sanguínea e linfática, e estimular a regeneração da pele. Realizada com movimentos suaves e precisos, essa massagem pode incluir pressões, deslizamentos e percussões em áreas específicas do rosto, como testa, bochechas, queixo e ao redor dos olhos.",
       paragraph2:
-        "Essa modalidade de massagem é frequentemente incorporada em tratamentos de reabilitação, gestão da dor e programas de bem-estar, oferecendo uma abordagem integrativa para o cuidado do corpo e da mente.",
+        "Além de proporcionar uma sensação de relaxamento e bem-estar, a massagem facial pode ajudar a reduzir a tensão muscular, suavizar rugas e linhas de expressão, melhorar a luminosidade da pele e facilitar a absorção de produtos cosméticos. É importante que a massagem seja realizada por um profissional treinado, utilizando técnicas adequadas e produtos adequados ao tipo de pele do cliente.",
     },
     {
       title: "Massagem Modeladora",
       image: image9,
       paragraph1:
-        "A Microfisioterapia é uma abordagem terapêutica que busca identificar e tratar as causas profundas de sintomas e disfunções no corpo. Desenvolvida por fisioterapeutas franceses, essa técnica considera que as memórias traumáticas e os desequilíbrios energéticos podem ser registrados nas células do corpo, contribuindo para problemas de saúde.",
+        "A massagem modeladora é uma técnica estética que utiliza movimentos firmes e rápidos para promover a quebra de gordura localizada e a redução de medidas em áreas específicas do corpo. Por meio de manobras como amassamento, pinçamento e deslizamento profundo, essa massagem estimula a circulação sanguínea e linfática, ajudando a eliminar toxinas e a remodelar a silhueta. Geralmente realizada em regiões como abdômen, coxas e glúteos, a massagem modeladora pode ser uma opção para quem busca melhorar a aparência da pele, reduzir a celulite e promover a sensação de leveza e bem-estar.",
       paragraph2:
-        "Durante uma sessão de Microfisioterapia, nós utilizamos toques sutis em diferentes áreas do corpo para identificar os bloqueios e estimular a autocorreção do organismo, promovendo a restauração do equilíbrio e favorecendo a recuperação natural. Essa abordagem integrativa visa não apenas tratar os sintomas, mas compreender e abordar as causas subjacentes das condições de saúde.",
+        "É importante que o procedimento seja realizado por um profissional qualificado, levando em consideração as condições individuais de cada pessoa e combinando a massagem com hábitos saudáveis de alimentação e atividade física para melhores resultados.",
     },
     {
       title: "Massagem Relaxante",
       image: image10,
       paragraph1:
-        "A Moxaterapia é uma técnica terapêutica tradicional da medicina chinesa que utiliza a queima de moxa, uma substância feita de Artemisia vulgaris (erva-mãe), para estimular pontos específicos no corpo. Durante uma sessão de Moxaterapia, pequenas quantidades de moxa são acesas e colocadas sobre pontos de acupuntura ou movimentadas próximas à pele, gerando calor. Esse calor é acreditado por praticantes da medicina chinesa tradicional como capaz de estimular o fluxo de energia vital, aliviando dores, fortalecendo o sistema imunológico e promovendo o equilíbrio energético no corpo.",
+        "A massagem relaxante é uma técnica terapêutica que visa proporcionar relaxamento físico e mental por meio de movimentos suaves e rítmicos aplicados no corpo. Durante o procedimento, o terapeuta utiliza técnicas como deslizamento, amassamento e pressão leve para aliviar a tensão muscular, reduzir o estresse e promover uma sensação geral de bem-estar. Indicada para aliviar o cansaço, a ansiedade e as dores musculares, a massagem relaxante pode ser uma excelente maneira de relaxar e recarregar as energias após um dia agitado.",
       paragraph2:
-        "A Moxaterapia é frequentemente usada em conjunto com a acupuntura, sendo considerada uma prática complementar para tratar uma variedade de condições, desde dores musculares até problemas digestivos. Seu objetivo é restabelecer o fluxo harmonioso de energia no corpo, proporcionando uma abordagem holística para a promoção da saúde e o alívio de desconfortos físicos.",
+        "É importante que o ambiente esteja calmo e tranquilo durante a sessão, permitindo que o cliente se desconecte das preocupações do dia a dia e desfrute dos benefícios terapêuticos da massagem.",
     },
     {
       title: "Massagem Terapêutica",
       image: image11,
-      paragraph1: "Em breve novas informações sobre este tratamento.",
-      paragraph2: "",
+      paragraph1: "A massagem terapêutica é uma prática que combina técnicas de massagem para ajudar no tratamento de condições físicas, emocionais e mentais. Realizada por profissionais treinados, essa abordagem personalizada pode incluir uma variedade de técnicas, como massagem sueca, massagem profunda, liberação miofascial e alongamento muscular, adaptadas às necessidades individuais de cada cliente. A massagem terapêutica visa aliviar dores musculares, reduzir o estresse, melhorar a circulação sanguínea e promover o relaxamento geral do corpo e da mente.",
+      paragraph2: "É comum que seja recomendada como parte de um plano de tratamento para condições como lesões musculoesqueléticas, dor crônica, ansiedade, depressão e problemas de sono, proporcionando alívio e bem-estar aos pacientes.",
     },
     {
       title: "Microfisioterapia",
       image: image12,
-      paragraph1: "Em breve novas informações sobre este tratamento.",
-      paragraph2: "",
+      paragraph1: "A microfisioterapia é uma abordagem terapêutica relativamente recente que busca identificar e tratar desequilíbrios no organismo, incluindo questões físicas, emocionais e energéticas. Baseada na premissa de que o corpo humano possui uma capacidade inata de se auto curar, essa técnica utiliza toques sutis em áreas específicas do corpo para estimular o sistema de autocorreção do organismo e promover a regulação de processos fisiológicos. Durante uma sessão de microfisioterapia, o terapeuta busca identificar memórias celulares de eventos traumáticos ou desequilíbrios que podem estar contribuindo para problemas de saúde, visando estimular a capacidade do corpo de se recuperar e restaurar seu estado de equilíbrio natural.",
+      paragraph2: "Embora ainda seja considerada uma abordagem complementar, a microfisioterapia tem sido cada vez mais utilizada como parte integrante de tratamentos para uma variedade de condições de saúde física e emocional.",
     },
     {
       title: "Quick Massage",
       image: image13,
       paragraph1:
-        "A quiropraxia é uma abordagem holística que reconhece a interconexão entre a coluna vertebral, o sistema nervoso e a saúde geral. Nosso quiropraxista utiliza ajustes manuais suaves e precisos para realinhar a coluna e liberar tensões e restrições nas articulações, permitindo que o corpo se cure naturalmente.",
+        "A Quick Massage é uma técnica de massagem rápida e acessível, geralmente realizada em cadeiras ergonômicas ou poltronas específicas, projetadas para proporcionar alívio do estresse e relaxamento em um curto período de tempo. Durante uma sessão de Quick Massage, o terapeuta utiliza movimentos suaves e firmes em áreas como pescoço, ombros, costas, braços e mãos, visando aliviar a tensão muscular e promover o relaxamento.",
       paragraph2:
-        "Ao longo desses 20 anos, ajudamos inúmeros clientes a superar uma variedade de condições, como dores nas costas, dores de cabeça, tensão muscular, lesões esportivas e muito mais.",
+        "Essa modalidade de massagem é ideal para ambientes corporativos, eventos ou feiras, onde as pessoas podem desfrutar dos benefícios terapêuticos da massagem em apenas alguns minutos, sem precisar se despir ou dedicar muito tempo à sessão. A Quick Massage é uma opção conveniente e eficaz para quem busca alívio imediato do estresse e do desconforto muscular no dia a dia.",
     },
     {
       title: "Quiropraxia",
       image: image14,
       paragraph1:
-        "A Terapia com Florais é uma abordagem de medicina alternativa que utiliza essências florais para promover o equilíbrio emocional e o bem-estar psicológico. Criada pelo médico inglês Edward Bach na década de 1930, essa terapia envolve a seleção de essências florais específicas, cada uma associada a estados emocionais particulares.",
+        "A quiropraxia é uma prática de saúde manual focada no diagnóstico, tratamento e prevenção de distúrbios musculoesqueléticos, especialmente aqueles relacionados à coluna vertebral. Os quiropráticos utilizam técnicas de ajuste manual ou instrumental para corrigir desalinhamentos da coluna vertebral, conhecidos como subluxações, e restaurar a função normal das articulações e dos tecidos circundantes. Esses ajustes podem ajudar a aliviar dores nas costas, pescoço e articulações, melhorar a mobilidade, promover o equilíbrio e o bem-estar geral do paciente.",
       paragraph2:
-        "Essas essências são diluídas e administradas ao paciente, com o objetivo de harmonizar as emoções, aliviar o estresse e promover um estado mental mais positivo. A Terapia com Florais é frequentemente considerada uma prática complementar, destinada a apoiar o aspecto emocional e mental da saúde, contribuindo para o tratamento de questões como ansiedade, depressão e desequilíbrios emocionais.",
+        "A quiropraxia é baseada na crença de que o corpo possui uma capacidade inata de se curar e se adaptar, e que a saúde ótima pode ser alcançada através da manutenção do sistema nervoso central, que é influenciado pela integridade da coluna vertebral e do sistema musculoesquelético. Embora seja considerada uma prática segura e eficaz para muitas condições, é importante que os pacientes consultem um profissional de saúde qualificado antes de iniciar qualquer tratamento quiroprático, especialmente se tiverem condições médicas pré-existentes.",
     },
     {
       title: "Tappyng",
       image: image15,
       paragraph1:
-        "As Terapias Combinadas referem-se à abordagem terapêutica que integra diferentes técnicas e modalidades para oferecer um tratamento abrangente e personalizado. Essa prática envolve a combinação de diversas terapias complementares, como massagem, acupuntura, quiropraxia, entre outras, adaptadas de acordo com as necessidades individuais do paciente.",
+        "O tappyng, também conhecido como EFT (Emotional Freedom Techniques), é uma técnica terapêutica que combina a estimulação de pontos de acupuntura com a psicologia para aliviar o estresse emocional, reduzir a ansiedade e tratar traumas. Durante uma sessão de tapping, o praticante utiliza os dedos para bater levemente em pontos específicos do corpo enquanto se concentra em um problema emocional ou físico.",
       paragraph2:
-        "O objetivo é criar uma sinergia entre as diferentes abordagens, visando maximizar os benefícios terapêuticos e promover uma abordagem holística para a saúde e o bem-estar. Essa integração pode proporcionar uma resposta mais eficaz a uma variedade de condições, abordando tanto os aspectos físicos quanto emocionais do paciente.",
+        "Essa estimulação é combinada com afirmações verbais positivas para ajudar a liberar bloqueios energéticos e promover o equilíbrio emocional. Embora a pesquisa sobre o tapping ainda esteja em andamento, muitas pessoas relatam benefícios significativos, incluindo redução do estresse, aumento da autoconfiança e alívio de sintomas de ansiedade e depressão.",
     },
     {
       title: "Tratamento Da Dor",
       image: image16,
       paragraph1:
-        "O Tratamento da Dor abrange uma variedade de abordagens terapêuticas destinadas a aliviar ou gerenciar desconfortos físicos. Este pode incluir métodos farmacológicos, como analgésicos, anti-inflamatórios e terapias medicamentosas, além de intervenções não farmacológicas, como fisioterapia, acupuntura, massagem e exercícios físicos específicos.",
+        "O tratamento da dor abrange uma variedade de abordagens terapêuticas destinadas a aliviar ou gerenciar a dor em pessoas que sofrem de condições agudas ou crônicas. Essas abordagens podem incluir medicamentos analgésicos, terapias físicas, como fisioterapia e reabilitação, técnicas de relaxamento, como meditação e respiração profunda, intervenções psicológicas, como terapia cognitivo-comportamental, e abordagens complementares, como acupuntura, quiropraxia e massagem terapêutica. O tratamento da dor é frequentemente personalizado para atender às necessidades individuais de cada paciente e pode envolver uma combinação de diferentes modalidades para alcançar o alívio máximo da dor e melhorar a qualidade de vida.",
       paragraph2:
-        "O objetivo principal é identificar a causa subjacente da dor e aplicar estratégias adequadas para minimizar os sintomas, promovendo a recuperação e melhor qualidade de vida para o paciente. A abordagem escolhida pode variar de acordo com a natureza e a intensidade da dor, proporcionando uma gama diversificada de opções para atender às necessidades individuais de cada pessoa.",
+        "É importante que o tratamento da dor seja supervisionado por profissionais de saúde qualificados, que podem avaliar a causa subjacente da dor e desenvolver um plano de tratamento adequado para cada situação.",
     },
     {
-      title: "Tratamento De DTM / Enxaqueca",
+      title: "Tratamento De DTM / ATM",
       image: image17,
       paragraph1:
-        "O Tratamento para Fibromialgia envolve uma abordagem multidisciplinar, visto que essa condição crônica caracterizada por dor generalizada e sensibilidade nos músculos e tecidos moles pode afetar diversos aspectos da vida do paciente. Os protocolos terapêuticos comumente incluem medicamentos para aliviar a dor, melhorar o sono e controlar sintomas associados, como depressão e ansiedade.",
+        "O tratamento da DTM (Disfunção Temporomandibular) ou ATM (Articulação Temporomandibular) envolve uma abordagem multidisciplinar para aliviar a dor e restaurar a função normal da mandíbula e da articulação temporomandibular. Isso pode incluir terapias conservadoras, como fisioterapia para fortalecer os músculos da mandíbula e melhorar a postura, uso de placas oclusais para aliviar a pressão sobre a articulação, técnicas de relaxamento para reduzir o estresse e a tensão muscular, e modificação dos hábitos alimentares e de mastigação.",
       paragraph2:
-        "Além disso, terapias não farmacológicas, como exercícios físicos adaptados, fisioterapia, técnicas de relaxamento, acupuntura e aconselhamento psicológico, são frequentemente incorporadas para proporcionar uma abordagem holística, visando melhorar a qualidade de vida e gerenciar os sintomas da fibromialgia de maneira mais abrangente.",
+        "O tratamento da DTM/ATM geralmente é personalizado de acordo com a gravidade dos sintomas e as necessidades individuais de cada paciente, com o objetivo de melhorar a função da mandíbula, aliviar a dor e restaurar a qualidade de vida.",
     },
     {
-      title: "Tratamento De Incontinência",
+      title: "Tratamento Dor De Cabeça / Enxaqueca",
+      image: image19,
+      paragraph1:
+        "O tratamento da dor de cabeça e enxaqueca pode envolver uma variedade de abordagens terapêuticas, dependendo da causa subjacente e da gravidade dos sintomas. Isso pode incluir medicamentos analgésicos, como analgésicos de venda livre ou prescrição médica, medicamentos específicos para enxaqueca, como triptanos ou medicamentos preventivos, terapias não farmacológicas, como biofeedback, acupuntura, massagem terapêutica e técnicas de relaxamento, como meditação e respiração profunda. Além disso, pode ser recomendado que o paciente identifique e evite os fatores desencadeantes conhecidos, como certos alimentos, estresse ou falta de sono.",
+      paragraph2:
+        "O tratamento da dor de cabeça e enxaqueca é frequentemente personalizado para atender às necessidades individuais de cada paciente e pode exigir tentativa e erro para encontrar a combinação mais eficaz de terapias para controlar os sintomas e melhorar a qualidade de vida. Em casos graves ou refratários, pode ser necessário o acompanhamento de um neurologista ou especialista em dor de cabeça para avaliação e manejo adequado.",
+    },
+    {
+      title: "Tratamento De Incontinência (Feminino)",
       image: image18,
       paragraph1:
-        "A Ventosaterapia é uma técnica terapêutica que utiliza copos de vidro ou plástico para criar sucção na pele, estimulando a circulação sanguínea e promovendo o alívio de tensões musculares. Durante o procedimento, os copos são colocados sobre áreas específicas do corpo, criando um vácuo que pode resultar em marcas temporárias circulares na pele.",
+        "O tratamento da incontinência urinária com fisioterapeutas geralmente envolve a fisioterapia do assoalho pélvico. Os fisioterapeutas especializados nessa área podem oferecer uma variedade de técnicas para fortalecer os músculos do assoalho pélvico e melhorar o controle da bexiga. Isso pode incluir exercícios de Kegel, biofeedback, estimulação elétrica, treinamento do músculo do assoalho pélvico e técnicas de relaxamento.",
       paragraph2:
-        "Esta prática, originada em antigas medicinas tradicionais, é frequentemente utilizada para tratar dores musculares, promover o relaxamento e melhorar a circulação, sendo uma opção complementar em diversos tratamentos de fisioterapia e bem-estar.",
+        "Além disso, os fisioterapeutas podem fornecer orientações sobre mudanças no estilo de vida e hábitos urinários que podem ajudar a reduzir os sintomas da incontinência. Trabalhar com um fisioterapeuta pode oferecer uma abordagem personalizada e eficaz para o tratamento da incontinência urinária, visando melhorar a qualidade de vida e a função da bexiga.",
     },
   ];
   const [paragrafosVisiveis, setParagrafosVisiveis] = useState([]);
